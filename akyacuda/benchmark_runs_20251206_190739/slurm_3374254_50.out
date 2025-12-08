@@ -1,0 +1,10 @@
+GROMACS environment loaded!
+========================================
+Task ID: 250, Node: akya5
+CPUs (ntmpi): 15, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+Task 250 completed

@@ -1,0 +1,10 @@
+GROMACS environment loaded!
+========================================
+Task ID: 399, Node: akya9
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+Task 399 completed

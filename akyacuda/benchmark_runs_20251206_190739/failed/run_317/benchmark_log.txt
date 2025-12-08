@@ -1,0 +1,8 @@
+========================================
+Task ID: 317, Node: akya5
+CPUs (ntmpi): 27, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED

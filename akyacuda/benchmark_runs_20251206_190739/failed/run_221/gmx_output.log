@@ -1,0 +1,31 @@
+                      :-) GROMACS - gmx mdrun, 2025.3 (-:
+
+Executable:   /arf/home/ecevik/gromacs/bin/gmx
+Data prefix:  /arf/home/ecevik/gromacs
+Working dir:  /arf/scratch/ecevik/workspace/benchmark_runs_barbuncuda/benchmark_runs_20251206_190739/run_221
+Command line:
+  gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+
+Reading file md_0_250ns_nohmr.tpr, VERSION 2024.2 (single precision)
+Note: file tpx version 133, software tpx version 137
+Overriding nsteps with value passed on the command line: 50000 steps, 100 ps
+Changing nstlist from 10 to 100, rlist from 1 to 1.17
+
+
+Update groups can not be used for this system because there are three or more consecutively coupled constraints
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2025.3
+Source file: src/gromacs/domdec/domdec.cpp (line 2037)
+MPI rank:    0 (out of 12)
+
+Fatal error:
+There is no domain decomposition for 11 ranks that is compatible with the
+given box and a minimum cell size of 1.08875 nm
+Change the number of ranks or mdrun option -rcon or -dds or your LINCS
+settings
+Look in the log file for details on the domain decomposition
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------

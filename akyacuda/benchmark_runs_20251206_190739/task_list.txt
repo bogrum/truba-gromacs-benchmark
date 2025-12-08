@@ -1,0 +1,390 @@
+0	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	10	1	yes	0	0
+1	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	10	1	yes	1	1
+2	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	10	1	yes	0	1
+3	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	10	1	yes	1	0
+4	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	10	2	yes	0	0
+5	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	10	2	yes	1	1
+6	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	11	1	yes	0	1
+7	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	11	1	yes	1	0
+8	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	11	1	yes	0	0
+9	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	11	1	yes	1	1
+10	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	11	2	yes	0	1
+11	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	12	1	yes	1	0
+12	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	12	1	yes	0	0
+13	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	12	1	yes	1	1
+14	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	12	1	yes	0	1
+15	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	12	2	yes	1	0
+16	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	13	1	yes	0	0
+17	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	13	1	yes	1	1
+18	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	13	1	yes	0	1
+19	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	13	1	yes	1	0
+20	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	13	2	yes	0	0
+21	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	13	2	yes	1	1
+22	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	14	1	yes	0	1
+23	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	14	1	yes	1	0
+24	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	14	1	yes	0	0
+25	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	14	1	yes	1	1
+26	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	14	2	yes	0	1
+27	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	15	1	yes	1	0
+28	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	15	1	yes	0	0
+29	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	15	1	yes	1	1
+30	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	15	1	yes	0	1
+31	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	15	2	yes	1	0
+32	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	16	1	yes	0	0
+33	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	2	16	1	yes	1	1
+34	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	2	16	1	yes	0	1
+35	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -gpu_id 0	2	16	1	yes	1	0
+36	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	16	2	yes	0	0
+37	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	2	16	2	yes	1	1
+38	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	7	1	yes	0	1
+39	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	7	1	yes	1	0
+40	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	7	1	yes	0	0
+41	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	7	1	yes	1	1
+42	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	7	2	yes	0	1
+43	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	8	1	yes	1	0
+44	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	8	1	yes	0	0
+45	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	8	1	yes	1	1
+46	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	8	1	yes	0	1
+47	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	8	2	yes	1	0
+48	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	9	1	yes	0	0
+49	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	9	1	yes	1	1
+50	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	9	1	yes	0	1
+51	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	9	1	yes	1	0
+52	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	9	2	yes	0	0
+53	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	9	2	yes	1	1
+54	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	10	1	yes	0	1
+55	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	10	1	yes	1	0
+56	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	10	1	yes	0	0
+57	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	10	1	yes	1	1
+58	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	10	2	yes	0	1
+59	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	11	1	yes	1	0
+60	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	11	1	yes	0	0
+61	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	11	1	yes	1	1
+62	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	11	1	yes	0	1
+63	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	11	2	yes	1	0
+64	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	12	1	yes	0	0
+65	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	12	1	yes	1	1
+66	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	12	1	yes	0	1
+67	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	12	1	yes	1	0
+68	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	12	2	yes	0	0
+69	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	12	2	yes	1	1
+70	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	3	13	1	yes	0	1
+71	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	3	13	1	yes	1	0
+72	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	13	1	yes	0	0
+73	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0	3	13	1	yes	1	1
+74	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	3	13	2	yes	0	1
+75	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	4	5	1	yes	1	0
+76	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	4	5	1	yes	0	0
+77	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	4	5	1	yes	1	1
+78	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0	4	5	1	yes	0	1
+79	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	4	5	2	yes	1	0
+80	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	4	6	1	yes	0	0
+81	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	4	6	1	yes	1	1
+82	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	4	6	1	yes	0	1
+83	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0	4	6	1	yes	1	0
+84	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	4	6	2	yes	0	0
+85	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	4	6	2	yes	1	1
+86	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	4	7	1	yes	0	1
+87	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	4	7	1	yes	1	0
+88	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0	4	7	1	yes	0	0
+89	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0	4	7	1	yes	1	1
+90	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	4	7	2	yes	0	1
+91	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	4	8	1	yes	1	0
+92	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	4	8	1	yes	0	0
+93	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	4	8	1	yes	1	1
+94	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0	4	8	1	yes	0	1
+95	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	4	8	2	yes	1	0
+96	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	4	9	1	yes	0	0
+97	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	4	9	1	yes	1	1
+98	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	4	9	1	yes	0	1
+99	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -gpu_id 0	4	9	1	yes	1	0
+100	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	4	9	2	yes	0	0
+101	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	4	9	2	yes	1	1
+102	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	4	10	1	yes	0	1
+103	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	4	10	1	yes	1	0
+104	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0	4	10	1	yes	0	0
+105	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0	4	10	1	yes	1	1
+106	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	4	10	2	yes	0	1
+107	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	5	4	1	yes	1	0
+108	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	5	4	1	yes	0	0
+109	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	5	4	1	yes	1	1
+110	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0	5	4	1	yes	0	1
+111	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	5	4	2	yes	1	0
+112	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	5	5	1	yes	0	0
+113	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	5	5	1	yes	1	1
+114	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	5	5	1	yes	0	1
+115	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0	5	5	1	yes	1	0
+116	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	5	5	2	yes	0	0
+117	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	5	5	2	yes	1	1
+118	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	5	6	1	yes	0	1
+119	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	5	6	1	yes	1	0
+120	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0	5	6	1	yes	0	0
+121	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0	5	6	1	yes	1	1
+122	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	5	6	2	yes	0	1
+123	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	5	7	1	yes	1	0
+124	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	5	7	1	yes	0	0
+125	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	5	7	1	yes	1	1
+126	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0	5	7	1	yes	0	1
+127	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	5	7	2	yes	1	0
+128	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	5	8	1	yes	0	0
+129	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	5	8	1	yes	1	1
+130	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	5	8	1	yes	0	1
+131	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0	5	8	1	yes	1	0
+132	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	5	8	2	yes	0	0
+133	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	5	8	2	yes	1	1
+134	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	6	4	1	yes	0	1
+135	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	6	4	1	yes	1	0
+136	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0	6	4	1	yes	0	0
+137	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0	6	4	1	yes	1	1
+138	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	6	4	2	yes	0	1
+139	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	6	5	1	yes	1	0
+140	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	6	5	1	yes	0	0
+141	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	6	5	1	yes	1	1
+142	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0	6	5	1	yes	0	1
+143	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	6	5	2	yes	1	0
+144	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	6	6	1	yes	0	0
+145	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	6	6	1	yes	1	1
+146	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	6	6	1	yes	0	1
+147	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0	6	6	1	yes	1	0
+148	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	6	6	2	yes	0	0
+149	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	6	6	2	yes	1	1
+150	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	7	3	1	yes	0	1
+151	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	7	3	1	yes	1	0
+152	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	7	3	1	yes	0	0
+153	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	7	3	1	yes	1	1
+154	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	7	3	2	yes	0	1
+155	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	7	4	1	yes	1	0
+156	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	7	4	1	yes	0	0
+157	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	7	4	1	yes	1	1
+158	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0	7	4	1	yes	0	1
+159	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	7	4	2	yes	1	0
+160	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	7	5	1	yes	0	0
+161	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	7	5	1	yes	1	1
+162	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	7	5	1	yes	0	1
+163	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0	7	5	1	yes	1	0
+164	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	7	5	2	yes	0	0
+165	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	7	5	2	yes	1	1
+166	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	8	3	1	yes	0	1
+167	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	8	3	1	yes	1	0
+168	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	8	3	1	yes	0	0
+169	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	8	3	1	yes	1	1
+170	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	8	3	2	yes	0	1
+171	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	8	4	1	yes	1	0
+172	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	8	4	1	yes	0	0
+173	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	8	4	1	yes	1	1
+174	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0	8	4	1	yes	0	1
+175	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	8	4	2	yes	1	0
+176	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	8	5	1	yes	0	0
+177	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	8	5	1	yes	1	1
+178	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	8	5	1	yes	0	1
+179	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0	8	5	1	yes	1	0
+180	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	8	5	2	yes	0	0
+181	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	8	5	2	yes	1	1
+182	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	9	3	1	yes	0	1
+183	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	9	3	1	yes	1	0
+184	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	9	3	1	yes	0	0
+185	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	9	3	1	yes	1	1
+186	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	9	3	2	yes	0	1
+187	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	9	4	1	yes	1	0
+188	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	9	4	1	yes	0	0
+189	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	9	4	1	yes	1	1
+190	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0	9	4	1	yes	0	1
+191	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	9	4	2	yes	1	0
+192	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	10	2	1	yes	0	0
+193	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	10	2	1	yes	1	1
+194	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	10	2	1	yes	0	1
+195	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	10	2	1	yes	1	0
+196	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	10	2	2	yes	0	0
+197	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	10	2	2	yes	1	1
+198	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	10	3	1	yes	0	1
+199	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	10	3	1	yes	1	0
+200	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	10	3	1	yes	0	0
+201	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	10	3	1	yes	1	1
+202	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	10	3	2	yes	0	1
+203	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	10	4	1	yes	1	0
+204	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	10	4	1	yes	0	0
+205	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	10	4	1	yes	1	1
+206	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0	10	4	1	yes	0	1
+207	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	10	4	2	yes	1	0
+208	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	11	2	1	yes	0	0
+209	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	11	2	1	yes	1	1
+210	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	11	2	1	yes	0	1
+211	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	11	2	1	yes	1	0
+212	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	11	2	2	yes	0	0
+213	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	11	2	2	yes	1	1
+214	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	11	3	1	yes	0	1
+215	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	11	3	1	yes	1	0
+216	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	11	3	1	yes	0	0
+217	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	11	3	1	yes	1	1
+218	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	11	3	2	yes	0	1
+219	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	12	2	1	yes	1	0
+220	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	12	2	1	yes	0	0
+221	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	12	2	1	yes	1	1
+222	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	12	2	1	yes	0	1
+223	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	12	2	2	yes	1	0
+224	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	12	3	1	yes	0	0
+225	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	12	3	1	yes	1	1
+226	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	12	3	1	yes	0	1
+227	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	12	3	1	yes	1	0
+228	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	12	3	2	yes	0	0
+229	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	12	3	2	yes	1	1
+230	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	13	2	1	yes	0	1
+231	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	13	2	1	yes	1	0
+232	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	13	2	1	yes	0	0
+233	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	13	2	1	yes	1	1
+234	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	13	2	2	yes	0	1
+235	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	13	3	1	yes	1	0
+236	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	13	3	1	yes	0	0
+237	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	13	3	1	yes	1	1
+238	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0	13	3	1	yes	0	1
+239	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	13	3	2	yes	1	0
+240	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	14	2	1	yes	0	0
+241	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	14	2	1	yes	1	1
+242	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	14	2	1	yes	0	1
+243	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	14	2	1	yes	1	0
+244	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	14	2	2	yes	0	0
+245	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	14	2	2	yes	1	1
+246	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	15	2	1	yes	0	1
+247	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	15	2	1	yes	1	0
+248	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	15	2	1	yes	0	0
+249	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	15	2	1	yes	1	1
+250	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	15	2	2	yes	0	1
+251	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	16	2	1	yes	1	0
+252	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	16	2	1	yes	0	0
+253	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	16	2	1	yes	1	1
+254	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	16	2	1	yes	0	1
+255	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	16	2	2	yes	1	0
+256	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	17	2	1	yes	0	0
+257	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	17	2	1	yes	1	1
+258	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	17	2	1	yes	0	1
+259	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	17	2	1	yes	1	0
+260	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	17	2	2	yes	0	0
+261	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	17	2	2	yes	1	1
+262	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	18	2	1	yes	0	1
+263	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	18	2	1	yes	1	0
+264	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	18	2	1	yes	0	0
+265	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	18	2	1	yes	1	1
+266	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	18	2	2	yes	0	1
+267	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	19	2	1	yes	1	0
+268	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	19	2	1	yes	0	0
+269	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	19	2	1	yes	1	1
+270	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	19	2	1	yes	0	1
+271	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	19	2	2	yes	1	0
+272	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	20	1	1	yes	0	0
+273	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	20	1	1	yes	1	1
+274	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	20	1	1	yes	0	1
+275	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	20	1	1	yes	1	0
+276	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	20	1	2	yes	0	0
+277	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	20	1	2	yes	1	1
+278	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	20	2	1	yes	0	1
+279	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	20	2	1	yes	1	0
+280	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	20	2	1	yes	0	0
+281	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0	20	2	1	yes	1	1
+282	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	20	2	2	yes	0	1
+283	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	21	1	1	yes	1	0
+284	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	21	1	1	yes	0	0
+285	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	21	1	1	yes	1	1
+286	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	21	1	1	yes	0	1
+287	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	21	1	2	yes	1	0
+288	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	22	1	1	yes	0	0
+289	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	22	1	1	yes	1	1
+290	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	22	1	1	yes	0	1
+291	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	22	1	1	yes	1	0
+292	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	22	1	2	yes	0	0
+293	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	22	1	2	yes	1	1
+294	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	23	1	1	yes	0	1
+295	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	23	1	1	yes	1	0
+296	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	23	1	1	yes	0	0
+297	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	23	1	1	yes	1	1
+298	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	23	1	2	yes	0	1
+299	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	24	1	1	yes	1	0
+300	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	24	1	1	yes	0	0
+301	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	24	1	1	yes	1	1
+302	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	24	1	1	yes	0	1
+303	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	24	1	2	yes	1	0
+304	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	25	1	1	yes	0	0
+305	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	25	1	1	yes	1	1
+306	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	25	1	1	yes	0	1
+307	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	25	1	1	yes	1	0
+308	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	25	1	2	yes	0	0
+309	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	25	1	2	yes	1	1
+310	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	26	1	1	yes	0	1
+311	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	26	1	1	yes	1	0
+312	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	26	1	1	yes	0	0
+313	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	26	1	1	yes	1	1
+314	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	26	1	2	yes	0	1
+315	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	27	1	1	yes	1	0
+316	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	27	1	1	yes	0	0
+317	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	27	1	1	yes	1	1
+318	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	27	1	1	yes	0	1
+319	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	27	1	2	yes	1	0
+320	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	28	1	1	yes	0	0
+321	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	28	1	1	yes	1	1
+322	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	28	1	1	yes	0	1
+323	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	28	1	1	yes	1	0
+324	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	28	1	2	yes	0	0
+325	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	28	1	2	yes	1	1
+326	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	29	1	1	yes	0	1
+327	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	29	1	1	yes	1	0
+328	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	29	1	1	yes	0	0
+329	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	29	1	1	yes	1	1
+330	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	29	1	2	yes	0	1
+331	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	30	1	1	yes	1	0
+332	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	30	1	1	yes	0	0
+333	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	30	1	1	yes	1	1
+334	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	30	1	1	yes	0	1
+335	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	30	1	2	yes	1	0
+336	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	31	1	1	yes	0	0
+337	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	31	1	1	yes	1	1
+338	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	31	1	1	yes	0	1
+339	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	31	1	1	yes	1	0
+340	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	31	1	2	yes	0	0
+341	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	31	1	2	yes	1	1
+342	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	32	1	1	yes	0	1
+343	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	32	1	1	yes	1	0
+344	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	32	1	1	yes	0	0
+345	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	32	1	1	yes	1	1
+346	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	32	1	2	yes	0	1
+347	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	33	1	1	yes	1	0
+348	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	33	1	1	yes	0	0
+349	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	33	1	1	yes	1	1
+350	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	33	1	1	yes	0	1
+351	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	33	1	2	yes	1	0
+352	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	34	1	1	yes	0	0
+353	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	34	1	1	yes	1	1
+354	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	34	1	1	yes	0	1
+355	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	34	1	1	yes	1	0
+356	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	34	1	2	yes	0	0
+357	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	34	1	2	yes	1	1
+358	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	35	1	1	yes	0	1
+359	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	35	1	1	yes	1	0
+360	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	35	1	1	yes	0	0
+361	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	35	1	1	yes	1	1
+362	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	35	1	2	yes	0	1
+363	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	36	1	1	yes	1	0
+364	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	36	1	1	yes	0	0
+365	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	36	1	1	yes	1	1
+366	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	36	1	1	yes	0	1
+367	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	36	1	2	yes	1	0
+368	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	37	1	1	yes	0	0
+369	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	37	1	1	yes	1	1
+370	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	37	1	1	yes	0	1
+371	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	37	1	1	yes	1	0
+372	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	37	1	2	yes	0	0
+373	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	37	1	2	yes	1	1
+374	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	38	1	1	yes	0	1
+375	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	38	1	1	yes	1	0
+376	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	38	1	1	yes	0	0
+377	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	38	1	1	yes	1	1
+378	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	38	1	2	yes	0	1
+379	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	39	1	1	yes	1	0
+380	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	39	1	1	yes	0	0
+381	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	39	1	1	yes	1	1
+382	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	39	1	1	yes	0	1
+383	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	39	1	2	yes	1	0
+384	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	40	1	1	yes	0	0
+385	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0	40	1	1	yes	1	1
+386	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0	40	1	1	yes	0	1
+387	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0	40	1	1	yes	1	0
+388	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	40	1	2	yes	0	0
+389	gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01	40	1	2	yes	1	1

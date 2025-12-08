@@ -1,0 +1,7 @@
+========================================
+Task ID: 367, Node: akya5
+CPUs (ntmpi): 36, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme

@@ -1,0 +1,32 @@
+                      :-) GROMACS - gmx mdrun, 2025.3 (-:
+
+Executable:   /arf/home/ecevik/gromacs/bin/gmx
+Data prefix:  /arf/home/ecevik/gromacs
+Working dir:  /arf/scratch/ecevik/workspace/benchmark_runs_barbuncuda/benchmark_runs_20251206_190739/run_53
+Command line:
+  gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+
+Reading file md_0_250ns_nohmr.tpr, VERSION 2024.2 (single precision)
+Note: file tpx version 133, software tpx version 137
+Overriding nsteps with value passed on the command line: 50000 steps, 100 ps
+Changing nstlist from 10 to 100, rlist from 1 to 1.17
+
+
+Update groups can not be used for this system because there are three or more consecutively coupled constraints
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2025.3
+Source file: src/gromacs/taskassignment/taskassignment.cpp (line 349)
+Function:    static gmx::GpuTaskAssignments gmx::GpuTaskAssignmentsBuilder::build(gmx::ArrayRef<const int>, gmx::ArrayRef<const int>, const gmx_hw_info_t&, MPI_Comm, const gmx::PhysicalNodeCommunicator&, gmx::TaskTarget, gmx::TaskTarget, gmx::TaskTarget, gmx::TaskTarget, bool, bool, bool, bool)
+MPI rank:    0 (out of 3)
+
+Inconsistency in user input:
+There were 3 GPU tasks found on node akya9, but 2 GPUs were available. If the
+GPUs are equivalent, then it is usually best to have a number of tasks that is
+a multiple of the number of GPUs. You should reconsider your GPU task
+assignment, number of ranks, or your use of the -nb, -pme, and -npme options,
+perhaps after measuring the performance you can get.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------

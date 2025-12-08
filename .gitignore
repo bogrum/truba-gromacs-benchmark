@@ -1,0 +1,26 @@
+# Compiled files
+*.pyc
+__pycache__/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Large binary files (if any get added accidentally)
+*.trr
+*.xtc
+*.cpt
+
+# Log files (keep the ones in benchmark results)
+# *.log

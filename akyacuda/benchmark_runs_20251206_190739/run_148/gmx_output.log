@@ -1,0 +1,57 @@
+                      :-) GROMACS - gmx mdrun, 2025.3 (-:
+
+Executable:   /arf/home/ecevik/gromacs/bin/gmx
+Data prefix:  /arf/home/ecevik/gromacs
+Working dir:  /arf/scratch/ecevik/workspace/benchmark_runs_barbuncuda/benchmark_runs_20251206_190739/run_148
+Command line:
+  gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+
+Reading file md_0_250ns_nohmr.tpr, VERSION 2024.2 (single precision)
+Note: file tpx version 133, software tpx version 137
+Overriding nsteps with value passed on the command line: 50000 steps, 100 ps
+Changing nstlist from 10 to 100, rlist from 1 to 1.17
+
+
+Update groups can not be used for this system because there are three or more consecutively coupled constraints
+
+On host akya5 2 GPUs selected for this run.
+Mapping of GPU IDs to the 6 GPU tasks in the 6 ranks on this node:
+  PP:0,PP:0,PP:0,PP:1,PP:1,PME:1
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+GPU direct communication will be used between MPI ranks.
+Using 6 MPI threads
+Using 6 OpenMP threads per tMPI thread
+
+
+NOTE: The number of threads is not equal to the number of (logical) cpus
+      and the -pin option is set to auto: will not pin threads to cpus.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'GROup of MAchos and Cynical Suckers in water'
+50000 steps,    100.0 ps.
+
+
+Dynamic load balancing report:
+ DLB was permanently on during the run per user request.
+ Average load imbalance: 8.6%.
+ The balanceable part of the MD step is 40%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 3.4%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 %
+ Average PME mesh/force load: 2.919
+ Part of the total run time spent waiting due to PP/PME imbalance: 9.8 %
+
+NOTE: 9.8 % performance was lost because the PME ranks
+      had more work to do than the PP ranks.
+      You might want to increase the number of PME ranks
+      or increase the cut-off and the grid spacing.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     1737.623       48.273     3599.6
+                 (ns/day)    (hour/ns)
+Performance:      178.985        0.134
+
+GROMACS reminds you: "There is no place like ~" (Anonymous)
+

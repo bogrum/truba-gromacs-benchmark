@@ -1,0 +1,3181 @@
+========================================
+Task ID: 0, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 128.629 ns/day
+========================================
+Task ID: 1, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 150.954 ns/day
+========================================
+Task ID: 10, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 11
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 172.426 ns/day
+========================================
+Task ID: 100, Node: akya5
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 163.931 ns/day
+========================================
+Task ID: 101, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 194.370 ns/day
+========================================
+Task ID: 102, Node: akya5
+CPUs (ntmpi): 4, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 134.636 ns/day
+========================================
+Task ID: 103, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 173.488 ns/day
+========================================
+Task ID: 104, Node: akya5
+CPUs (ntmpi): 4, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 105, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 106, Node: akya5
+CPUs (ntmpi): 4, Threads (ntomp): 10
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 169.607 ns/day
+========================================
+Task ID: 107, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 149.831 ns/day
+========================================
+Task ID: 108, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 153.641 ns/day
+========================================
+Task ID: 109, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 152.508 ns/day
+========================================
+Task ID: 11, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 139.453 ns/day
+========================================
+Task ID: 110, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 111, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 112, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 153.124 ns/day
+========================================
+Task ID: 113, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 156.926 ns/day
+========================================
+Task ID: 114, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 154.957 ns/day
+========================================
+Task ID: 115, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 116, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 117, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 118, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 155.764 ns/day
+========================================
+Task ID: 119, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 165.074 ns/day
+========================================
+Task ID: 12, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 144.752 ns/day
+========================================
+Task ID: 120, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 121, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 122, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 123, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 159.102 ns/day
+========================================
+Task ID: 124, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 154.598 ns/day
+========================================
+Task ID: 125, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 167.426 ns/day
+========================================
+Task ID: 126, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 127, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 7
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 128, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 153.986 ns/day
+========================================
+Task ID: 129, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 155.018 ns/day
+========================================
+Task ID: 13, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 162.353 ns/day
+========================================
+Task ID: 130, Node: akya5
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 159.308 ns/day
+========================================
+Task ID: 131, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 132, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 133, Node: akya9
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 134, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 155.045 ns/day
+========================================
+Task ID: 135, Node: akya9
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 157.968 ns/day
+========================================
+Task ID: 136, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 137, Node: akya9
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 138, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 215.858 ns/day
+========================================
+Task ID: 139, Node: akya9
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 154.211 ns/day
+========================================
+Task ID: 14, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 140, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 164.237 ns/day
+========================================
+Task ID: 141, Node: akya9
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 162.935 ns/day
+========================================
+Task ID: 142, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 143, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 180.117 ns/day
+========================================
+Task ID: 144, Node: akya9
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 161.087 ns/day
+========================================
+Task ID: 145, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 158.272 ns/day
+========================================
+Task ID: 146, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 164.252 ns/day
+========================================
+Task ID: 147, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 148, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 178.985 ns/day
+========================================
+Task ID: 149, Node: akya5
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 227.789 ns/day
+========================================
+Task ID: 15, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 166.995 ns/day
+========================================
+Task ID: 150, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 137.367 ns/day
+========================================
+Task ID: 151, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 144.788 ns/day
+========================================
+Task ID: 152, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 153, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 154, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 155, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 141.597 ns/day
+========================================
+Task ID: 156, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 140.263 ns/day
+========================================
+Task ID: 157, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 150.421 ns/day
+========================================
+Task ID: 158, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 159, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 16, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 133.628 ns/day
+========================================
+Task ID: 160, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 129.154 ns/day
+========================================
+Task ID: 161, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 142.201 ns/day
+========================================
+Task ID: 162, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 144.065 ns/day
+========================================
+Task ID: 163, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 164, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 165, Node: akya5
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 166, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 138.075 ns/day
+========================================
+Task ID: 167, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 142.023 ns/day
+========================================
+Task ID: 168, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 169, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 17, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 154.367 ns/day
+========================================
+Task ID: 170, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 183.316 ns/day
+========================================
+Task ID: 171, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 147.086 ns/day
+========================================
+Task ID: 172, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 142.341 ns/day
+========================================
+Task ID: 173, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 147.980 ns/day
+========================================
+Task ID: 174, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 175, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 207.467 ns/day
+========================================
+Task ID: 176, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 142.111 ns/day
+========================================
+Task ID: 177, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 149.268 ns/day
+========================================
+Task ID: 178, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 140.803 ns/day
+========================================
+Task ID: 179, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 18, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 153.294 ns/day
+========================================
+Task ID: 180, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 200.522 ns/day
+========================================
+Task ID: 181, Node: akya5
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 220.076 ns/day
+========================================
+Task ID: 182, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 137.540 ns/day
+========================================
+Task ID: 183, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 139.344 ns/day
+========================================
+Task ID: 184, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 185, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 186, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 187, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 138.913 ns/day
+========================================
+Task ID: 188, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 126.349 ns/day
+========================================
+Task ID: 189, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 143.265 ns/day
+========================================
+Task ID: 19, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 190, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 191, Node: akya5
+CPUs (ntmpi): 9, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 192, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 124.128 ns/day
+========================================
+Task ID: 193, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 126.469 ns/day
+========================================
+Task ID: 194, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 130.857 ns/day
+========================================
+Task ID: 195, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 196, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 159.023 ns/day
+========================================
+Task ID: 197, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 160.002 ns/day
+========================================
+Task ID: 198, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 125.408 ns/day
+========================================
+Task ID: 199, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 131.459 ns/day
+========================================
+Task ID: 2, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 150.031 ns/day
+========================================
+Task ID: 20, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 160.980 ns/day
+========================================
+Task ID: 200, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 201, Node: akya9
+CPUs (ntmpi): 10, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 202, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 160.066 ns/day
+========================================
+Task ID: 203, Node: akya9
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 132.981 ns/day
+========================================
+Task ID: 204, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 125.889 ns/day
+========================================
+Task ID: 205, Node: akya9
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 131.779 ns/day
+========================================
+Task ID: 206, Node: akya5
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 207, Node: akya9
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 182.631 ns/day
+========================================
+Task ID: 208, Node: akya5
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 131.775 ns/day
+========================================
+Task ID: 209, Node: akya9
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 137.327 ns/day
+========================================
+Task ID: 21, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 189.734 ns/day
+========================================
+Task ID: 210, Node: akya5
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 125.807 ns/day
+========================================
+Task ID: 211, Node: akya9
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 212, Node: akya9
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 213, Node: akya5
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 214, Node: akya9
+CPUs (ntmpi): 11, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 127.299 ns/day
+========================================
+Task ID: 215, Node: akya5
+CPUs (ntmpi): 11, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 117.897 ns/day
+========================================
+Task ID: 216, Node: akya9
+CPUs (ntmpi): 11, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 217, Node: akya5
+CPUs (ntmpi): 11, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 218, Node: akya9
+CPUs (ntmpi): 11, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 219, Node: akya5
+CPUs (ntmpi): 12, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 22, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 14
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 145.859 ns/day
+========================================
+Task ID: 220, Node: akya9
+CPUs (ntmpi): 12, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 221, Node: akya5
+CPUs (ntmpi): 12, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 222, Node: akya9
+CPUs (ntmpi): 12, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 223, Node: akya5
+CPUs (ntmpi): 12, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 224, Node: akya9
+CPUs (ntmpi): 12, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 225, Node: akya5
+CPUs (ntmpi): 12, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 226, Node: akya9
+CPUs (ntmpi): 12, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 227, Node: akya5
+CPUs (ntmpi): 12, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 228, Node: akya9
+CPUs (ntmpi): 12, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 229, Node: akya5
+CPUs (ntmpi): 12, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 12 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 23, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 14
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 154.130 ns/day
+========================================
+Task ID: 230, Node: akya9
+CPUs (ntmpi): 13, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 114.460 ns/day
+========================================
+Task ID: 231, Node: akya5
+CPUs (ntmpi): 13, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 107.738 ns/day
+========================================
+Task ID: 232, Node: akya9
+CPUs (ntmpi): 13, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 233, Node: akya5
+CPUs (ntmpi): 13, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 234, Node: akya9
+CPUs (ntmpi): 13, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 235, Node: akya5
+CPUs (ntmpi): 13, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 114.067 ns/day
+========================================
+Task ID: 236, Node: akya9
+CPUs (ntmpi): 13, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 104.861 ns/day
+========================================
+Task ID: 237, Node: akya5
+CPUs (ntmpi): 13, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 108.703 ns/day
+========================================
+Task ID: 238, Node: akya9
+CPUs (ntmpi): 13, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 239, Node: akya9
+CPUs (ntmpi): 13, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 24, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 14
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 240, Node: akya5
+CPUs (ntmpi): 14, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 241, Node: akya9
+CPUs (ntmpi): 14, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 242, Node: akya5
+CPUs (ntmpi): 14, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 243, Node: akya9
+CPUs (ntmpi): 14, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 244, Node: akya5
+CPUs (ntmpi): 14, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 245, Node: akya9
+CPUs (ntmpi): 14, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 246, Node: akya5
+CPUs (ntmpi): 15, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 97.298 ns/day
+========================================
+Task ID: 247, Node: akya9
+CPUs (ntmpi): 15, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 88.745 ns/day
+========================================
+Task ID: 248, Node: akya5
+CPUs (ntmpi): 15, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 249, Node: akya9
+CPUs (ntmpi): 15, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 25, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 14
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 250, Node: akya5
+CPUs (ntmpi): 15, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 251, Node: akya9
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 96.281 ns/day
+========================================
+Task ID: 252, Node: akya5
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 86.226 ns/day
+========================================
+Task ID: 253, Node: akya9
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 93.010 ns/day
+========================================
+Task ID: 254, Node: akya5
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 255, Node: akya5
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 163.986 ns/day
+========================================
+Task ID: 256, Node: akya9
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 90.197 ns/day
+========================================
+Task ID: 257, Node: akya5
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 96.049 ns/day
+========================================
+Task ID: 258, Node: akya9
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 87.813 ns/day
+========================================
+Task ID: 259, Node: akya5
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 26, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 14
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 181.785 ns/day
+========================================
+Task ID: 260, Node: akya5
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 261, Node: akya5
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 262, Node: akya5
+CPUs (ntmpi): 18, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 263, Node: akya9
+CPUs (ntmpi): 18, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 264, Node: akya5
+CPUs (ntmpi): 18, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 265, Node: akya9
+CPUs (ntmpi): 18, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 266, Node: akya5
+CPUs (ntmpi): 18, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 18 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 267, Node: akya9
+CPUs (ntmpi): 19, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 68.340 ns/day
+========================================
+Task ID: 268, Node: akya5
+CPUs (ntmpi): 19, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 60.427 ns/day
+========================================
+Task ID: 269, Node: akya9
+CPUs (ntmpi): 19, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 64.344 ns/day
+========================================
+Task ID: 27, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 146.231 ns/day
+========================================
+Task ID: 270, Node: akya5
+CPUs (ntmpi): 19, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 271, Node: akya5
+CPUs (ntmpi): 19, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 272, Node: akya5
+CPUs (ntmpi): 20, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 273, Node: akya5
+CPUs (ntmpi): 20, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 274, Node: akya9
+CPUs (ntmpi): 20, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 275, Node: akya5
+CPUs (ntmpi): 20, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 276, Node: akya9
+CPUs (ntmpi): 20, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 277, Node: akya5
+CPUs (ntmpi): 20, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 278, Node: akya9
+CPUs (ntmpi): 20, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 279, Node: akya5
+CPUs (ntmpi): 20, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 28, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 142.685 ns/day
+========================================
+Task ID: 280, Node: akya9
+CPUs (ntmpi): 20, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 281, Node: akya5
+CPUs (ntmpi): 20, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 282, Node: akya9
+CPUs (ntmpi): 20, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 20 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 283, Node: akya5
+CPUs (ntmpi): 21, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 79.357 ns/day
+========================================
+Task ID: 284, Node: akya9
+CPUs (ntmpi): 21, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 72.981 ns/day
+========================================
+Task ID: 285, Node: akya5
+CPUs (ntmpi): 21, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 73.431 ns/day
+========================================
+Task ID: 286, Node: akya9
+CPUs (ntmpi): 21, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 287, Node: akya9
+CPUs (ntmpi): 21, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 288, Node: akya9
+CPUs (ntmpi): 22, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+========================================
+Task ID: 289, Node: akya5
+CPUs (ntmpi): 22, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+========================================
+Task ID: 29, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 166.026 ns/day
+========================================
+Task ID: 290, Node: akya6
+CPUs (ntmpi): 22, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+========================================
+Task ID: 291, Node: akya10
+CPUs (ntmpi): 22, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 292, Node: akya11
+CPUs (ntmpi): 22, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+========================================
+Task ID: 293, Node: akya12
+CPUs (ntmpi): 22, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 22 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+========================================
+Task ID: 294, Node: akya10
+CPUs (ntmpi): 23, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 295, Node: akya10
+CPUs (ntmpi): 23, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 296, Node: akya10
+CPUs (ntmpi): 23, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 297, Node: akya10
+CPUs (ntmpi): 23, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 298, Node: akya10
+CPUs (ntmpi): 23, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 23 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 299, Node: akya5
+CPUs (ntmpi): 24, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 3, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 30, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 300, Node: akya5
+CPUs (ntmpi): 24, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 301, Node: akya6
+CPUs (ntmpi): 24, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 302, Node: akya9
+CPUs (ntmpi): 24, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 303, Node: akya10
+CPUs (ntmpi): 24, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 24 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 304, Node: akya11
+CPUs (ntmpi): 25, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+========================================
+Task ID: 305, Node: akya12
+CPUs (ntmpi): 25, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+========================================
+Task ID: 306, Node: akya5
+CPUs (ntmpi): 25, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 49.961 ns/day
+========================================
+Task ID: 307, Node: akya6
+CPUs (ntmpi): 25, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 308, Node: akya9
+CPUs (ntmpi): 25, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 309, Node: akya10
+CPUs (ntmpi): 25, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 31, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 173.648 ns/day
+========================================
+Task ID: 310, Node: akya6
+CPUs (ntmpi): 26, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 67.193 ns/day
+========================================
+Task ID: 311, Node: akya9
+CPUs (ntmpi): 26, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 58.811 ns/day
+========================================
+Task ID: 312, Node: akya10
+CPUs (ntmpi): 26, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 313, Node: akya10
+CPUs (ntmpi): 26, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 314, Node: akya10
+CPUs (ntmpi): 26, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 116.982 ns/day
+========================================
+Task ID: 315, Node: akya6
+CPUs (ntmpi): 27, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 316, Node: akya10
+CPUs (ntmpi): 27, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 317, Node: akya5
+CPUs (ntmpi): 27, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 318, Node: akya6
+CPUs (ntmpi): 27, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 319, Node: akya9
+CPUs (ntmpi): 27, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 27 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 32, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 136.202 ns/day
+========================================
+Task ID: 320, Node: akya10
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 43.645 ns/day
+========================================
+Task ID: 321, Node: akya9
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 45.956 ns/day
+========================================
+Task ID: 322, Node: akya11
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+========================================
+Task ID: 323, Node: akya5
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 324, Node: akya6
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 78.309 ns/day
+========================================
+Task ID: 325, Node: akya5
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 84.528 ns/day
+========================================
+Task ID: 326, Node: akya12
+CPUs (ntmpi): 29, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+========================================
+Task ID: 327, Node: akya6
+CPUs (ntmpi): 29, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+========================================
+Task ID: 328, Node: akya5
+CPUs (ntmpi): 29, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 329, Node: akya5
+CPUs (ntmpi): 29, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 33, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 158.277 ns/day
+========================================
+Task ID: 330, Node: akya10
+CPUs (ntmpi): 29, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 29 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 331, Node: akya5
+CPUs (ntmpi): 30, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 332, Node: akya9
+CPUs (ntmpi): 30, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 333, Node: akya10
+CPUs (ntmpi): 30, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 334, Node: akya5
+CPUs (ntmpi): 30, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 335, Node: akya9
+CPUs (ntmpi): 30, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 30 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 336, Node: akya10
+CPUs (ntmpi): 31, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 43.630 ns/day
+========================================
+Task ID: 337, Node: akya5
+CPUs (ntmpi): 31, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+========================================
+Task ID: 338, Node: akya9
+CPUs (ntmpi): 31, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+========================================
+Task ID: 339, Node: akya10
+CPUs (ntmpi): 31, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 34, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 161.968 ns/day
+========================================
+Task ID: 340, Node: akya11
+CPUs (ntmpi): 31, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 341, Node: akya12
+CPUs (ntmpi): 31, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 342, Node: akya5
+CPUs (ntmpi): 32, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 343, Node: akya6
+CPUs (ntmpi): 32, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 344, Node: akya9
+CPUs (ntmpi): 32, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 345, Node: akya10
+CPUs (ntmpi): 32, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 346, Node: akya11
+CPUs (ntmpi): 32, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 32 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 347, Node: akya12
+CPUs (ntmpi): 33, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 36.142 ns/day
+========================================
+Task ID: 348, Node: akya5
+CPUs (ntmpi): 33, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 36.821 ns/day
+========================================
+Task ID: 349, Node: akya6
+CPUs (ntmpi): 33, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 38.634 ns/day
+========================================
+Task ID: 35, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 350, Node: akya9
+CPUs (ntmpi): 33, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 351, Node: akya10
+CPUs (ntmpi): 33, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 352, Node: akya11
+CPUs (ntmpi): 34, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 353, Node: akya9
+CPUs (ntmpi): 34, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 354, Node: akya10
+CPUs (ntmpi): 34, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 355, Node: akya11
+CPUs (ntmpi): 34, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 356, Node: akya9
+CPUs (ntmpi): 34, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 357, Node: akya10
+CPUs (ntmpi): 34, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 34 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 358, Node: akya11
+CPUs (ntmpi): 35, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 359, Node: akya9
+CPUs (ntmpi): 35, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 36, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 166.947 ns/day
+========================================
+Task ID: 360, Node: akya10
+CPUs (ntmpi): 35, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 361, Node: akya11
+CPUs (ntmpi): 35, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 362, Node: akya9
+CPUs (ntmpi): 35, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 35 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 363, Node: akya10
+CPUs (ntmpi): 36, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+========================================
+Task ID: 364, Node: akya11
+CPUs (ntmpi): 36, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+========================================
+Task ID: 365, Node: akya9
+CPUs (ntmpi): 36, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+========================================
+Task ID: 366, Node: akya6
+CPUs (ntmpi): 36, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 367, Node: akya5
+CPUs (ntmpi): 36, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 36 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+========================================
+Task ID: 368, Node: akya6
+CPUs (ntmpi): 37, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+========================================
+Task ID: 369, Node: akya12
+CPUs (ntmpi): 37, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+========================================
+Task ID: 37, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 192.950 ns/day
+========================================
+Task ID: 370, Node: akya11
+CPUs (ntmpi): 37, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+========================================
+Task ID: 371, Node: akya12
+CPUs (ntmpi): 37, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 372, Node: akya5
+CPUs (ntmpi): 37, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 373, Node: akya6
+CPUs (ntmpi): 37, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 37 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 374, Node: akya9
+CPUs (ntmpi): 38, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 375, Node: akya10
+CPUs (ntmpi): 38, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 376, Node: akya12
+CPUs (ntmpi): 38, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 377, Node: akya5
+CPUs (ntmpi): 38, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 378, Node: akya6
+CPUs (ntmpi): 38, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 38 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 379, Node: akya9
+CPUs (ntmpi): 39, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 38, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 125.884 ns/day
+========================================
+Task ID: 380, Node: akya10
+CPUs (ntmpi): 39, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 381, Node: akya12
+CPUs (ntmpi): 39, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 382, Node: akya5
+CPUs (ntmpi): 39, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 383, Node: akya6
+CPUs (ntmpi): 39, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 39 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 384, Node: akya9
+CPUs (ntmpi): 40, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 385, Node: akya10
+CPUs (ntmpi): 40, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 386, Node: akya12
+CPUs (ntmpi): 40, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 387, Node: akya5
+CPUs (ntmpi): 40, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 388, Node: akya6
+CPUs (ntmpi): 40, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 389, Node: akya9
+CPUs (ntmpi): 40, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 40 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 39, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 151.895 ns/day
+========================================
+Task ID: 390, Node: akya10
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 391, Node: akya12
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 392, Node: akya5
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 393, Node: akya6
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 394, Node: akya9
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 395, Node: akya10
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 396, Node: akya12
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 397, Node: akya5
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 398, Node: akya6
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 399, Node: akya9
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 4, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 153.485 ns/day
+========================================
+Task ID: 40, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 41, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 42, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 7
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 43, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 139.963 ns/day
+========================================
+Task ID: 44, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 146.746 ns/day
+========================================
+Task ID: 45, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 164.136 ns/day
+========================================
+Task ID: 46, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 47, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 8
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 48, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 129.447 ns/day
+========================================
+Task ID: 49, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 159.400 ns/day
+========================================
+Task ID: 5, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 181.617 ns/day
+========================================
+Task ID: 50, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 147.954 ns/day
+========================================
+Task ID: 51, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 52, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 53, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 54, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 119.650 ns/day
+========================================
+Task ID: 55, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 155.570 ns/day
+========================================
+Task ID: 56, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 57, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 58, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 10
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 59, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 143.724 ns/day
+========================================
+Task ID: 6, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 140.813 ns/day
+========================================
+Task ID: 60, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 154.618 ns/day
+========================================
+Task ID: 61, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 165.222 ns/day
+========================================
+Task ID: 62, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 63, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 11
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 64, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 139.850 ns/day
+========================================
+Task ID: 65, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 150.997 ns/day
+========================================
+Task ID: 66, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 119.283 ns/day
+========================================
+Task ID: 67, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 68, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 69, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 7, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 143.347 ns/day
+========================================
+Task ID: 70, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 135.180 ns/day
+========================================
+Task ID: 71, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 160.791 ns/day
+========================================
+Task ID: 72, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 73, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 74, Node: akya9
+CPUs (ntmpi): 3, Threads (ntomp): 13
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 75, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 153.810 ns/day
+========================================
+Task ID: 76, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 142.569 ns/day
+========================================
+Task ID: 77, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 158.920 ns/day
+========================================
+Task ID: 78, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 79, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 168.094 ns/day
+========================================
+Task ID: 8, Node: akya9
+CPUs (ntmpi): 2, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 80, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 137.176 ns/day
+========================================
+Task ID: 81, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 156.288 ns/day
+========================================
+Task ID: 82, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 140.759 ns/day
+========================================
+Task ID: 83, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED
+========================================
+Task ID: 84, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 169.269 ns/day
+========================================
+Task ID: 85, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 190.172 ns/day
+========================================
+Task ID: 86, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 135.480 ns/day
+========================================
+Task ID: 87, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 162.888 ns/day
+========================================
+Task ID: 88, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Status: FAILED
+========================================
+Task ID: 89, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 9, Node: akya2
+CPUs (ntmpi): 2, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Status: FAILED
+========================================
+Task ID: 90, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 7
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 154.575 ns/day
+========================================
+Task ID: 91, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 149.020 ns/day
+========================================
+Task ID: 92, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 157.834 ns/day
+========================================
+Task ID: 93, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 165.020 ns/day
+========================================
+Task ID: 94, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Status: FAILED
+========================================
+Task ID: 95, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 171.103 ns/day
+========================================
+Task ID: 96, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 143.579 ns/day
+========================================
+Task ID: 97, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 157.090 ns/day
+========================================
+Task ID: 98, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 140.525 ns/day
+========================================
+Task ID: 99, Node: akya9
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Status: FAILED

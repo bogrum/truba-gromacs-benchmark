@@ -1,0 +1,30 @@
+                      :-) GROMACS - gmx mdrun, 2025.3 (-:
+
+Executable:   /arf/home/ecevik/gromacs/bin/gmx
+Data prefix:  /arf/home/ecevik/gromacs
+Working dir:  /arf/scratch/ecevik/workspace/benchmark_runs_barbuncuda/benchmark_runs_20251206_190739/run_245
+Command line:
+  gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 14 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+
+Reading file md_0_250ns_nohmr.tpr, VERSION 2024.2 (single precision)
+Note: file tpx version 133, software tpx version 137
+Overriding nsteps with value passed on the command line: 50000 steps, 100 ps
+Changing nstlist from 10 to 100, rlist from 1 to 1.17
+
+
+Update groups can not be used for this system because there are three or more consecutively coupled constraints
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2025.3
+Source file: src/gromacs/domdec/domdec_setup.cpp (line 858)
+MPI rank:    5 (out of 14)
+
+Fatal error:
+The number of ranks selected for particle-particle work (13) contains a large
+prime factor 13. In most cases this will lead to bad performance. Choose a
+number with smaller prime factors or set the decomposition (option -dd)
+manually.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------

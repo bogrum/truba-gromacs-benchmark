@@ -1,0 +1,8 @@
+========================================
+Task ID: 320, Node: akya10
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 43.645 ns/day

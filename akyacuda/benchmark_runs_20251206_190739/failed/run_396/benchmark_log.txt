@@ -1,0 +1,8 @@
+========================================
+Task ID: 396, Node: akya12
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED

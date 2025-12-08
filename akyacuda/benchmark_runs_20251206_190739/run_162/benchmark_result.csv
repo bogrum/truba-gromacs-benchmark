@@ -1,0 +1,2 @@
+timestamp,hostname,task_id,ntmpi,ntomp,gpu_count,dlb,notunepme,pin,runtime_sec,performance_ns_day,status,command
+2025-12-08 01:17:27,akya5,162,7,5,1,yes,0,1,68,144.065,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"

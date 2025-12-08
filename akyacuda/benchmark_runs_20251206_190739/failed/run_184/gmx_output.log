@@ -1,0 +1,23 @@
+                      :-) GROMACS - gmx mdrun, 2025.3 (-:
+
+Executable:   /arf/home/ecevik/gromacs/bin/gmx
+Data prefix:  /arf/home/ecevik/gromacs
+Working dir:  /arf/scratch/ecevik/workspace/benchmark_runs_barbuncuda/benchmark_runs_20251206_190739/run_184
+Command line:
+  gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+
+Reading file md_0_250ns_nohmr.tpr, VERSION 2024.2 (single precision)
+Note: file tpx version 133, software tpx version 137
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2025.3
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 244)
+Function:    bool gmx::decideWhetherToUseGpusForPmeWithThreadMpi(bool, TaskTarget, TaskTarget, int, const std::vector<int>&, const t_inputrec&, int, int)
+
+Feature not implemented:
+PME tasks were required to run on GPUs with multiple ranks but the -npme
+option was not specified. A non-negative value must be specified for -npme.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
