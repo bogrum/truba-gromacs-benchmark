@@ -21,7 +21,12 @@ TRUBA GPU cluster benchmark results for GROMACS molecular dynamics simulations o
 - **Results file:** `akyacuda/all_results.csv`
 
 ### Barbuncuda Node
-- **Status:** 🔄 To be added
+- **Date:** 2025-12-10
+- **Status:** ✅ Completed
+- **Successful runs:** 171 out of 192 (89.1%)
+- **Total runs:** 192
+- **Best performance:** 147.851 ns/day (6 MPI ranks, 5 OMP threads, 2 GPUs)
+- **Results file:** `barbuncuda/all_results.csv`
 
 ## Directory Structure
 
@@ -38,7 +43,13 @@ TRUBA GPU cluster benchmark results for GROMACS molecular dynamics simulations o
 │   │       └── ...
 │   └── failed_runs.txt               # List of failed run IDs
 ├── barbuncuda/
-│   └── (to be added)
+│   ├── benchmark_runs_20251210_000000/
+│   │   ├── run_0/                     # Successful benchmark runs
+│   │   ├── run_1/
+│   │   ├── ...
+│   │   └── run_191/
+│   ├── all_results.csv                # Compiled results (171 successful)
+│   └── combined_benchmark_logs.txt    # All run logs
 ├── md_0_250ns_nohmr.tpr             # Input file (3.6 MB)
 ├── run_benchmarks.sh                # Benchmark script
 └── README.md                        # This file
@@ -89,15 +100,18 @@ grep "Error\|Feature not implemented" \
   akyacuda/benchmark_runs_20251206_190739/failed/*/gmx_output.log
 ```
 
-### Compare Nodes (after Barbuncuda data is added)
+### Compare Nodes
 
 ```bash
 # Compare best performance across nodes
-for node in akyacuda barbuncuda; do
-  echo "=== $node ==="
-  grep Success $node/*/run_*/benchmark_result.csv 2>/dev/null | \
-    awk -F',' '{print $11}' | sort -rn | head -1
-done
+echo "=== Akyacuda ==="
+tail -n +2 akyacuda/all_results.csv | awk -F',' '{print $2}' | sort -rn | head -5
+echo "=== Barbuncuda ==="
+tail -n +2 barbuncuda/all_results.csv | awk -F',' '{print $2}' | sort -rn | head -5
+
+# Akyacuda best: 227.79 ns/day (6 MPI, 6 OMP, 2 GPUs)
+# Barbuncuda best: 147.851 ns/day (6 MPI, 5 OMP, 2 GPUs)
+# Performance ratio: Akyacuda is ~54% faster than Barbuncuda
 ```
 
 ## Reproducibility

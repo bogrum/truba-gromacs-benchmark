@@ -1,0 +1,2 @@
+timestamp,hostname,task_id,ntmpi,ntomp,gpu_count,dlb,notunepme,pin,runtime_sec,performance_ns_day,status,command
+2025-12-10 02:49:31,barbun137,191,,,,,,,0,0.0,Failed," -nsteps 50000 -noconfout -dlb "

@@ -1,0 +1,10 @@
+GROMACS environment loaded!
+========================================
+Task ID: 87, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 135.277 ns/day
+Task 87 completed

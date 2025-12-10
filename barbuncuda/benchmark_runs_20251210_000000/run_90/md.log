@@ -1,0 +1,1444 @@
+                      :-) GROMACS - gmx mdrun, 2025.3 (-:
+
+Copyright 1991-2025 The GROMACS Authors.
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+                         Current GROMACS contributors:
+       Mark Abraham           Andrey Alekseenko           Brian Andrews       
+      Vladimir Basov              Paul Bauer                Hugh Bird         
+      Eliane Briand               Ania Brown              Mahesh Doijade      
+      Giacomo Fiorin          Stefan Fleischmann          Sergey Gorelov      
+   Gilles Gouaillardet            Alan Gray              M. Eric Irrgang      
+   Farzaneh Jalalypour         Petter Johansson          Carsten Kutzner      
+    Grzegorz Łazarski         Justin A. Lemkul          Magnus Lundborg      
+       Pascal Merz             Vedran Miletić            Dmitry Morozov      
+     Lukas Müllender            Julien Nabet             Szilárd Páll      
+ Andrea Pasquadibisceglie     Michele Pellegrino         Nicola Piasentin     
+     Daniele Rapetti         Muhammad Umair Sadiq         Hubert Santuz       
+      Roland Schulz             Michael Shirts           Tatiana Shugaeva     
+     Alexey Shvetsov            Philip Turner            Alessandra Villa     
+ Sebastian Wingbermühle  
+
+                         Previous GROMACS contributors:
+        Emile Apol             Rossen Apostolov           James Barnett       
+  Herman J.C. Berendsen         Cathrine Bergh             Par Bjelkmar       
+      Christian Blau          Viacheslav Bolnykh            Kevin Boyd        
+    Aldert van Buuren          Carlo Camilloni           Rudi van Drunen      
+      Anton Feenstra           Oliver Fleetwood            Vytas Gapsys       
+       Gaurav Garg             Gerrit Groenhof            Bert de Groot       
+      Anca Hamuraru           Vincent Hindriksen          Victor Holanda      
+     Aleksei Iupinov              Joe Jordan            Christoph Junghans    
+    Prashanth Kanduri        Dimitrios Karkoulis           Peter Kasson       
+      Sebastian Kehl           Sebastian Keller             Jiri Kraus        
+       Per Larsson              Viveca Lindahl            Erik Marklund       
+    Pieter Meulenhoff           Teemu Murtola              Sander Pronk       
+      Alfons Sijbers            Balint Soproni         David van der Spoel    
+      Peter Tieleman            Carsten Uphoff             Jon Vincent        
+     Teemu Virolainen         Christian Wennberg           Maarten Wolf       
+      Artem Zhmurov       
+
+                  Coordinated by the GROMACS project leaders:
+                           Berk Hess and Erik Lindahl
+
+GROMACS:      gmx mdrun, version 2025.3
+Executable:   /arf/home/ecevik/gromacs/bin/gmx
+Data prefix:  /arf/home/ecevik/gromacs
+Working dir:  /arf/scratch/ecevik/workspace/benchmark_runs_barbuncuda/barbuncuda/benchmark_runs_barbuncuda/run_90
+Process ID:   1144406
+Command line:
+  gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+
+GROMACS version:     2025.3
+Precision:           mixed
+Memory model:        64 bit
+MPI library:         thread_mpi
+OpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)
+GPU support:         CUDA
+NBNxM GPU setup:     super-cluster 2x2x2 / cluster 8 (cluster-pair splitting on)
+SIMD instructions:   AVX_512
+CPU FFT library:     fftw-3.3.10-sse2-avx-avx2-avx2_128-avx512
+GPU FFT library:     cuFFT
+Multi-GPU FFT:       none
+RDTSCP usage:        enabled
+TNG support:         enabled
+Hwloc support:       disabled
+Tracing support:     disabled
+C compiler:          /arf/sw/comp/gcc/12.3/bin/gcc GNU 12.3.0
+C compiler flags:    -fexcess-precision=fast -funroll-all-loops -march=skylake-avx512 -Wno-missing-field-initializers -O3 -DNDEBUG
+C++ compiler:        /arf/sw/comp/gcc/12.3/bin/g++ GNU 12.3.0
+C++ compiler flags:  -fexcess-precision=fast -funroll-all-loops -march=skylake-avx512 -Wno-missing-field-initializers -Wno-cast-function-type-strict SHELL:-fopenmp -O3 -DNDEBUG
+BLAS library:        Internal
+LAPACK library:      Internal
+CUDA compiler:       /arf/sw/lib/cuda/12.6/bin/nvcc nvcc: NVIDIA (R) Cuda compiler driver;Copyright (c) 2005-2024 NVIDIA Corporation;Built on Fri_Jun_14_16:34:21_PDT_2024;Cuda compilation tools, release 12.6, V12.6.20;Build cuda_12.6.r12.6/compiler.34431801_0
+CUDA compiler flags: -O3 -DNDEBUG
+CUDA driver:         12.70
+CUDA runtime:        12.60
+
+
+Running on 1 node with total 40 cores, 40 processing units, 2 compatible GPUs
+Hardware detected on host barbun137:
+  CPU info:
+    Vendor: Intel
+    Brand:  Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
+    Family: 6   Model: 85   Stepping: 4
+    Features: aes apic avx avx2 avx512f avx512cd avx512bw avx512vl avx512secondFMA clfsh cmov cx8 cx16 f16c fma hle htt intel lahf mmx msr nonstop_tsc pcid pclmuldq pdcm pdpe1gb popcnt pse rdrnd rdtscp rtm sse2 sse3 sse4.1 sse4.2 ssse3 tdt x2apic
+    Number of AVX-512 FMA units: 2
+  Hardware topology: Basic
+    Packages, cores, and logical processors:
+    [indices refer to OS logical processors]
+      Package  0: [   0] [   2] [   4] [   6] [   8] [  10] [  12] [  14] [  16] [  18] [  20] [  22] [  24] [  26] [  28] [  30] [  32] [  34] [  36] [  38]
+      Package  1: [   1] [   3] [   5] [   7] [   9] [  11] [  13] [  15] [  17] [  19] [  21] [  23] [  25] [  27] [  29] [  31] [  33] [  35] [  37] [  39]
+    CPU limit set by OS: -1   Recommended max number of threads: 40
+  GPU info:
+    Number of GPUs detected: 2
+    #0: NVIDIA Tesla P100-PCIE-16GB, compute cap.: 6.0, ECC: yes, stat: compatible
+    #1: NVIDIA Tesla P100-PCIE-16GB, compute cap.: 6.0, ECC: yes, stat: compatible
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+M. J. Abraham, T. Murtola, R. Schulz, S. Páll, J. C. Smith, B. Hess, E.
+Lindahl
+GROMACS: High performance molecular simulations through multi-level
+parallelism from laptops to supercomputers
+SoftwareX (2015)
+DOI: 10.1016/j.softx.2015.06.001
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Páll, M. J. Abraham, C. Kutzner, B. Hess, E. Lindahl
+Tackling Exascale Software Challenges in Molecular Dynamics Simulations with
+GROMACS
+In S. Markidis & E. Laure (Eds.), Solving Software Challenges for Exascale (2015)
+DOI: 10.1007/978-3-319-15976-8_1
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Pronk, S. Páll, R. Schulz, P. Larsson, P. Bjelkmar, R. Apostolov, M. R.
+Shirts, J. C. Smith, P. M. Kasson, D. van der Spoel, B. Hess, E. Lindahl
+GROMACS 4.5: a high-throughput and highly parallel open source molecular
+simulation toolkit
+Bioinformatics (2013)
+DOI: 10.1093/bioinformatics/btt055
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+B. Hess, C. Kutzner, D. van der Spoel, E. Lindahl
+GROMACS 4: Algorithms for highly efficient, load-balanced, and scalable
+molecular simulation
+J. Chem. Theory Comput. (2008)
+DOI: 10.1021/ct700301q
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+D. van der Spoel, E. Lindahl, B. Hess, G. Groenhof, A. E. Mark, H. J. C.
+Berendsen
+GROMACS: Fast, Flexible and Free
+J. Comp. Chem. (2005)
+DOI: 10.1002/jcc.20291
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+E. Lindahl, B. Hess, D. van der Spoel
+GROMACS 3.0: A package for molecular simulation and trajectory analysis
+J. Mol. Mod. (2001)
+DOI: 10.1007/s008940100045
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+H. J. C. Berendsen, D. van der Spoel and R. van Drunen
+GROMACS: A message-passing parallel molecular dynamics implementation
+Comp. Phys. Comm. (1995)
+DOI: 10.1016/0010-4655(95)00042-E
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE CITE THE DOI FOR THIS VERSION OF GROMACS ++++
+https://doi.org/10.5281/zenodo.16992621
+-------- -------- --- Thank You --- -------- --------
+
+Input Parameters:
+   integrator                     = md
+   tinit                          = 0
+   dt                             = 0.002
+   nsteps                         = 125000000
+   init-step                      = 0
+   simulation-part                = 1
+   mts                            = false
+   mass-repartition-factor        = 1
+   comm-mode                      = Linear
+   nstcomm                        = 100
+   bd-fric                        = 0
+   ld-seed                        = -1141965889
+   emtol                          = 10
+   emstep                         = 0.01
+   niter                          = 20
+   fcstep                         = 0
+   nstcgsteep                     = 1000
+   nbfgscorr                      = 10
+   rtpi                           = 0.05
+   nstxout                        = 0
+   nstvout                        = 0
+   nstfout                        = 0
+   nstlog                         = 1000
+   nstcalcenergy                  = 100
+   nstenergy                      = 1000
+   nstxout-compressed             = 5000
+   compressed-x-precision         = 1000
+   cutoff-scheme                  = Verlet
+   nstlist                        = 10
+   pbc                            = xyz
+   periodic-molecules             = false
+   verlet-buffer-tolerance        = 0.005
+   verlet-buffer-pressure-tolerance = 0.5
+   rlist                          = 1
+   coulombtype                    = PME
+   coulomb-modifier               = Potential-shift
+   rcoulomb-switch                = 0
+   rcoulomb                       = 1
+   epsilon-r                      = 1
+   epsilon-rf                     = inf
+   vdw-type                       = Cut-off
+   vdw-modifier                   = Potential-shift
+   rvdw-switch                    = 0
+   rvdw                           = 1
+   DispCorr                       = EnerPres
+   table-extension                = 1
+   fourierspacing                 = 0.16
+   fourier-nx                     = 64
+   fourier-ny                     = 64
+   fourier-nz                     = 64
+   pme-order                      = 4
+   ewald-rtol                     = 1e-05
+   ewald-rtol-lj                  = 0.001
+   lj-pme-comb-rule               = Geometric
+   ewald-geometry                 = 3d
+   epsilon-surface                = 0
+   ensemble-temperature-setting   = constant
+   ensemble-temperature           = 310
+   tcoupl                         = V-rescale
+   nsttcouple                     = 10
+   nh-chain-length                = 0
+   print-nose-hoover-chain-variables = false
+   pcoupl                         = C-rescale
+   pcoupltype                     = Isotropic
+   nstpcouple                     = 100
+   tau-p                          = 5.5
+   compressibility (3x3):
+      compressibility[    0]={ 4.50000e-05,  0.00000e+00,  0.00000e+00}
+      compressibility[    1]={ 0.00000e+00,  4.50000e-05,  0.00000e+00}
+      compressibility[    2]={ 0.00000e+00,  0.00000e+00,  4.50000e-05}
+   ref-p (3x3):
+      ref-p[    0]={ 1.00000e+00,  0.00000e+00,  0.00000e+00}
+      ref-p[    1]={ 0.00000e+00,  1.00000e+00,  0.00000e+00}
+      ref-p[    2]={ 0.00000e+00,  0.00000e+00,  1.00000e+00}
+   refcoord-scaling               = No
+   posres-com (0x3):
+   posres-comB (0x3):
+   QMMM                           = false
+qm-opts:
+   ngQM                           = 0
+   constraint-algorithm           = Lincs
+   continuation                   = true
+   Shake-SOR                      = false
+   shake-tol                      = 0.0001
+   lincs-order                    = 4
+   lincs-iter                     = 1
+   lincs-warnangle                = 30
+   nwall                          = 0
+   wall-type                      = 9-3
+   wall-r-linpot                  = -1
+   wall-atomtype[0]               = -1
+   wall-atomtype[1]               = -1
+   wall-density[0]                = 0
+   wall-density[1]                = 0
+   wall-ewald-zfac                = 3
+   pull                           = false
+   awh                            = false
+   rotation                       = false
+   interactiveMD                  = false
+   disre                          = No
+   disre-weighting                = Conservative
+   disre-mixed                    = false
+   dr-fc                          = 1000
+   dr-tau                         = 0
+   nstdisreout                    = 100
+   orire-fc                       = 0
+   orire-tau                      = 0
+   nstorireout                    = 100
+   free-energy                    = no
+   cos-acceleration               = 0
+   deform (3x3):
+      deform[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      deform[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      deform[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   simulated-tempering            = false
+   swapcoords                     = no
+   userint1                       = 0
+   userint2                       = 0
+   userint3                       = 0
+   userint4                       = 0
+   userreal1                      = 0
+   userreal2                      = 0
+   userreal3                      = 0
+   userreal4                      = 0
+   applied-forces:
+     electric-field:
+       x:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+       y:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+       z:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+     density-guided-simulation:
+       active                     = false
+       group                      = protein
+       similarity-measure         = inner-product
+       atom-spreading-weight      = unity
+       force-constant             = 1e+09
+       gaussian-transform-spreading-width = 0.2
+       gaussian-transform-spreading-range-in-multiples-of-width = 4
+       reference-density-filename = reference.mrc
+       nst                        = 1
+       normalize-densities        = true
+       adaptive-force-scaling     = false
+       adaptive-force-scaling-time-constant = 4
+       shift-vector               = 
+       transformation-matrix      = 
+     qmmm-cp2k:
+       active                     = false
+       qmgroup                    = System
+       qmmethod                   = PBE
+       qmfilenames                = 
+       qmcharge                   = 0
+       qmmultiplicity             = 1
+     colvars:
+       active                     = false
+       configfile                 = 
+       seed                       = -1
+grpopts:
+   nrdf:     12104.8      168216
+   ref-t:         310         310
+   tau-t:         0.1         0.1
+annealing:          No          No
+annealing-npoints:           0           0
+   acc:	           0           0           0
+   nfreeze:           N           N           N
+   energygrp-flags[  0]: 0
+
+The -nsteps functionality is deprecated, and may be removed in a future version. Consider using gmx convert-tpr -nsteps or changing the appropriate .mdp file field.
+
+Overriding nsteps with value passed on the command line: 50000 steps, 100 ps
+Changing nstlist from 10 to 100, rlist from 1 to 1.17
+
+
+Update groups can not be used for this system because there are three or more consecutively coupled constraints
+
+Update task can not run on the GPU, because the following condition(s) were not satisfied:
+  Domain decomposition is only supported with constraints when update groups are used. This means constraining all bonds is not supported, except for small molecules, and box sizes close to half the pair-list cutoff are not supported.
+  The number of coupled constraints is higher than supported in the GPU LINCS code.
+
+Initializing Domain Decomposition on 6 ranks
+Dynamic load balancing: on
+Minimum cell size due to atom displacement: 0.754 nm
+Initial maximum distances in bonded interactions:
+    two-body bonded interactions: 0.445 nm, LJ-14, atoms 4743 5623
+  multi-body bonded interactions: 0.445 nm, Proper Dih., atoms 5623 4743
+Minimum cell size due to bonded interactions: 0.490 nm
+Maximum distance for 5 constraints, at 120 deg. angles, all-trans: 0.871 nm
+Estimated maximum distance required for P-LINCS: 0.871 nm
+This distance will limit the DD cell size, you can override this with -rcon
+Scaling the initial minimum size with 1/0.8 (option -dds) = 1.25
+Using 1 separate PME ranks, as requested with -npme option
+Optimizing the DD grid for 5 cells with a minimum initial size of 1.089 nm
+The maximum allowed number of cells is: X 8 Y 8 Z 8
+Domain decomposition grid 5 x 1 x 1, separate PME ranks 1
+PME domain decomposition: 1 x 1 x 1
+Interleaving PP and PME ranks
+This rank does only particle-particle work.
+Domain decomposition rank 0, coordinates 0 0 0
+
+The maximum number of communication pulses is: X 1
+The minimum size for domain decomposition cells is 1.170 nm
+The requested allowed shrink of DD cells (option -dds) is: 0.80
+The allowed shrink of domain decomposition cells is: X 0.60
+The maximum allowed distance for atoms involved in interactions is:
+                 non-bonded interactions           1.170 nm
+            two-body bonded interactions  (-rdd)   1.170 nm
+          multi-body bonded interactions  (-rdd)   1.170 nm
+  atoms separated by up to 5 constraints  (-rcon)  1.170 nm
+
+Local state does not use filler particles
+
+On host barbun137 1 GPU selected for this run.
+Mapping of GPU IDs to the 6 GPU tasks in the 6 ranks on this node:
+  PP:0,PP:0,PP:0,PP:0,PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+GPU direct communication will be used between MPI ranks.
+Using 6 MPI threads
+Using 5 OpenMP threads per tMPI thread
+
+System total charge: 0.000
+Will do PME sum in reciprocal space for electrostatic interactions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+U. Essmann, L. Perera, M. L. Berkowitz, T. Darden, H. Lee, L. G. Pedersen 
+A smooth particle mesh Ewald method
+J. Chem. Phys. (1995)
+DOI: 10.1063/1.470117
+-------- -------- --- Thank You --- -------- --------
+
+Using a Gaussian width (1/beta) of 0.320163 nm for Ewald
+Potential shift: LJ r^-12: -1.000e+00 r^-6: -1.000e+00, Ewald -1.000e-05
+Initialized non-bonded Coulomb Ewald tables, spacing: 9.33e-04 size: 1073
+
+Generated table with 1085 data points for 1-4 COUL.
+Tabscale = 500 points/nm
+Generated table with 1085 data points for 1-4 LJ6.
+Tabscale = 500 points/nm
+Generated table with 1085 data points for 1-4 LJ12.
+Tabscale = 500 points/nm
+Long Range LJ corr.: <C6> 3.1118e-04
+
+
+Using GPU 8x4 nonbonded short-range kernels
+
+NBNxM GPU setup: super-cluster 2x2x2
+
+Using a dual 8x4 pair-list setup updated with dynamic, rolling pruning:
+  outer list: updated every 100 steps, buffer 0.170 nm, rlist 1.170 nm
+  inner list: updated every   8 steps, buffer 0.001 nm, rlist 1.001 nm
+At tolerance 0.005 kJ/mol/ps per atom, equivalent classical 1x1 list would be:
+  outer list: updated every 100 steps, buffer 0.310 nm, rlist 1.310 nm
+  inner list: updated every   8 steps, buffer 0.031 nm, rlist 1.031 nm
+
+The average pressure is off by at most 0.55 bar due to missing LJ interactions
+
+Using Lorentz-Berthelot Lennard-Jones combination rule
+
+Linking all bonded interactions to atoms
+
+
+Pinning threads with an auto-selected logical cpu stride of 1
+
+Initializing Parallel LINear Constraint Solver
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+B. Hess
+P-LINCS: A Parallel Linear Constraint Solver for molecular simulation
+J. Chem. Theory Comput. (2008)
+DOI: 10.1021/ct700200b
+-------- -------- --- Thank You --- -------- --------
+
+The number of constraints is 6183
+There are constraints between atoms in different decomposition domains,
+will communicate selected coordinates each lincs iteration
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Miyamoto, P. A. Kollman
+SETTLE: An Analytical Version of the SHAKE and RATTLE Algorithms for Rigid
+Water Models
+J. Comp. Chem. (1992)
+DOI: 10.1002/jcc.540130805
+-------- -------- --- Thank You --- -------- --------
+
+
+The -noconfout functionality is deprecated, and may be removed in a future version.
+
+Intra-simulation communication will occur every 10 steps.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+G. Bussi, D. Donadio, M. Parrinello
+Canonical sampling through velocity rescaling
+J. Chem. Phys. (2007)
+DOI: 10.1063/1.2408420
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+M. Bernetti, G. Bussi
+Pressure control using stochastic cell rescaling
+J. Chem. Phys. (2020)
+DOI: 10.1063/5.0020514
+-------- -------- --- Thank You --- -------- --------
+
+There are: 90116 Atoms
+Atom distribution over 5 domains: av 18023 stddev 170 min 17838 max 18164
+Center of mass motion removal mode is Linear
+We have the following groups for center of mass motion removal:
+  0:  rest
+
+Started mdrun on rank 0 Tue Dec  9 23:13:29 2025
+
+           Step           Time
+              0        0.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34427e+04    1.54425e+04    8.30008e+02    5.72459e+03    5.38449e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.61675e+05   -1.15779e+04   -1.48090e+06    8.96418e+03   -1.23255e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.13147e+04   -1.21123e+06   -1.19821e+06    2.84334e+01   -2.10788e+02
+ Pressure (bar)   Constr. rmsd
+   -1.17291e+04    2.91179e-04
+
+
+DD  step 99  vol min/aver 1.000  load imb.: force  6.1%  pme mesh/force 0.947
+
+DD  step 999  vol min/aver 0.798  load imb.: force  4.1%  pme mesh/force 0.821
+           Step           Time
+           1000        2.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32236e+04    1.55051e+04    7.97579e+02    6.53120e+03    5.51152e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.66255e+05   -1.17730e+04   -1.49386e+06    8.92173e+03   -1.23928e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31291e+05   -1.00799e+06   -1.20271e+06    3.08538e+02   -2.17944e+02
+ Pressure (bar)   Constr. rmsd
+    3.28686e+02    2.66217e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 1999  vol min/aver 0.605! load imb.: force  7.2%  pme mesh/force 0.752
+           Step           Time
+           2000        4.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33065e+04    1.53700e+04    8.70640e+02    6.46478e+03    5.54512e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63600e+05   -1.17028e+04   -1.48793e+06    8.88185e+03   -1.23568e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32574e+05   -1.00311e+06   -1.20374e+06    3.10250e+02   -2.15355e+02
+ Pressure (bar)   Constr. rmsd
+    1.05887e+02    2.85052e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 2999  vol min/aver 0.605! load imb.: force  4.0%  pme mesh/force 0.762
+           Step           Time
+           3000        6.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.31793e+04    1.55173e+04    8.82580e+02    6.35388e+03    5.56060e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64042e+05   -1.16853e+04   -1.49015e+06    8.81370e+03   -1.23744e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31962e+05   -1.00548e+06   -1.20414e+06    3.09433e+02   -2.14713e+02
+ Pressure (bar)   Constr. rmsd
+    8.08982e+01    2.74608e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 3999  vol min/aver 0.604! load imb.: force  5.6%  pme mesh/force 0.830
+           Step           Time
+           4000        8.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33935e+04    1.52988e+04    7.92124e+02    6.49106e+03    5.54753e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.65048e+05   -1.16513e+04   -1.48924e+06    8.92323e+03   -1.23547e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31508e+05   -1.00396e+06   -1.20474e+06    3.08827e+02   -2.13466e+02
+ Pressure (bar)   Constr. rmsd
+    1.44395e+02    2.77807e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 4999  vol min/aver 0.604! load imb.: force  3.0%  pme mesh/force 0.868
+           Step           Time
+           5000       10.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33915e+04    1.52707e+04    7.95149e+02    6.54802e+03    5.53761e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63243e+05   -1.16210e+04   -1.48604e+06    9.01518e+03   -1.23402e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32042e+05   -1.00198e+06   -1.20513e+06    3.09539e+02   -2.12360e+02
+ Pressure (bar)   Constr. rmsd
+    3.16649e+01    2.74454e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 5999  vol min/aver 0.603! load imb.: force  1.4%  pme mesh/force 0.909
+           Step           Time
+           6000       12.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34937e+04    1.53628e+04    8.99225e+02    6.43663e+03    5.55855e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64043e+05   -1.15961e+04   -1.48794e+06    9.04950e+03   -1.23467e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32946e+05   -1.00172e+06   -1.20559e+06    3.10745e+02   -2.11452e+02
+ Pressure (bar)   Constr. rmsd
+   -5.43384e+00    2.77119e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 6999  vol min/aver 0.604! load imb.: force  2.4%  pme mesh/force 0.800
+           Step           Time
+           7000       14.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.30513e+04    1.52823e+04    7.68950e+02    6.50560e+03    5.55779e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64370e+05   -1.16145e+04   -1.48870e+06    8.91233e+03   -1.23584e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31648e+05   -1.00420e+06   -1.20555e+06    3.09014e+02   -2.12122e+02
+ Pressure (bar)   Constr. rmsd
+    4.07505e+01    2.77748e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 7999  vol min/aver 0.604! load imb.: force  3.7%  pme mesh/force 0.856
+           Step           Time
+           8000       16.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.29178e+04    1.53555e+04    7.22572e+02    6.47304e+03    5.52478e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.62009e+05   -1.16247e+04   -1.48554e+06    9.00819e+03   -1.23544e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32907e+05   -1.00253e+06   -1.20560e+06    3.10694e+02   -2.12496e+02
+ Pressure (bar)   Constr. rmsd
+   -6.88674e+01    2.82614e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 8999  vol min/aver 0.603! load imb.: force  1.3%  pme mesh/force 0.839
+           Step           Time
+           9000       18.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.31586e+04    1.53350e+04    8.91868e+02    6.42261e+03    5.51591e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63640e+05   -1.15920e+04   -1.48620e+06    8.98497e+03   -1.23420e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32295e+05   -1.00190e+06   -1.20607e+06    3.09877e+02   -2.11301e+02
+ Pressure (bar)   Constr. rmsd
+    3.20970e+01    2.74821e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 9999  vol min/aver 0.604! load imb.: force  4.1%  pme mesh/force 0.787
+           Step           Time
+          10000       20.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33320e+04    1.53748e+04    8.08863e+02    6.39757e+03    5.54037e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63317e+05   -1.16213e+04   -1.48635e+06    8.92202e+03   -1.23442e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32278e+05   -1.00214e+06   -1.20578e+06    3.09854e+02   -2.12371e+02
+ Pressure (bar)   Constr. rmsd
+   -1.32330e+01    2.79608e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 10999  vol min/aver 0.603! load imb.: force  2.1%  pme mesh/force 0.784
+           Step           Time
+          11000       22.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34365e+04    1.53918e+04    8.36802e+02    6.49009e+03    5.55848e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64238e+05   -1.16063e+04   -1.48832e+06    8.85147e+03   -1.23510e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.33297e+05   -1.00180e+06   -1.20611e+06    3.11214e+02   -2.11825e+02
+ Pressure (bar)   Constr. rmsd
+   -2.34286e+01    2.85210e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 11999  vol min/aver 0.604! load imb.: force  1.0%  pme mesh/force 0.940
+           Step           Time
+          12000       24.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.36959e+04    1.53152e+04    8.83233e+02    6.41549e+03    5.52420e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.65318e+05   -1.16188e+04   -1.49077e+06    9.02987e+03   -1.23649e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.34168e+05   -1.00232e+06   -1.20611e+06    3.12375e+02   -2.12279e+02
+ Pressure (bar)   Constr. rmsd
+    7.45586e+01    2.85642e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 12999  vol min/aver 0.604! load imb.: force  1.1%  pme mesh/force 0.867
+           Step           Time
+          13000       26.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.30491e+04    1.53612e+04    8.54801e+02    6.50675e+03    5.55662e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.65010e+05   -1.16221e+04   -1.48996e+06    8.86258e+03   -1.23637e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.33589e+05   -1.00278e+06   -1.20616e+06    3.11603e+02   -2.12399e+02
+ Pressure (bar)   Constr. rmsd
+    1.23098e+02    2.67891e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 13999  vol min/aver 0.604! load imb.: force  4.0%  pme mesh/force 0.862
+           Step           Time
+          14000       28.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.30120e+04    1.53846e+04    9.07931e+02    6.47119e+03    5.56843e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.61607e+05   -1.16101e+04   -1.48517e+06    8.90993e+03   -1.23481e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.30991e+05   -1.00382e+06   -1.20637e+06    3.08137e+02   -2.11962e+02
+ Pressure (bar)   Constr. rmsd
+   -1.42797e+02    2.77540e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 14999  vol min/aver 0.604! load imb.: force  5.0%  pme mesh/force 0.836
+           Step           Time
+          15000       30.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32664e+04    1.52705e+04    7.89964e+02    6.41435e+03    5.54802e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64706e+05   -1.16028e+04   -1.48946e+06    8.82838e+03   -1.23630e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32492e+05   -1.00381e+06   -1.20662e+06    3.10139e+02   -2.11695e+02
+ Pressure (bar)   Constr. rmsd
+    2.38484e+01    2.71446e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 15999  vol min/aver 0.603! load imb.: force  4.1%  pme mesh/force 0.885
+           Step           Time
+          16000       32.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32977e+04    1.52884e+04    7.60919e+02    6.45081e+03    5.55609e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64376e+05   -1.16045e+04   -1.48855e+06    8.91307e+03   -1.23551e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31919e+05   -1.00359e+06   -1.20681e+06    3.09375e+02   -2.11759e+02
+ Pressure (bar)   Constr. rmsd
+    2.19224e+01    2.72036e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 16999  vol min/aver 0.604! load imb.: force  4.0%  pme mesh/force 0.871
+           Step           Time
+          17000       34.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.31633e+04    1.53953e+04    8.06988e+02    6.48658e+03    5.54179e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64236e+05   -1.16148e+04   -1.48708e+06    9.09152e+03   -1.23410e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.33092e+05   -1.00100e+06   -1.20676e+06    3.10941e+02   -2.12133e+02
+ Pressure (bar)   Constr. rmsd
+    1.14657e+02    2.82483e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 17999  vol min/aver 0.604! load imb.: force  3.5%  pme mesh/force 0.912
+           Step           Time
+          18000       36.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32337e+04    1.53469e+04    8.18964e+02    6.45355e+03    5.53810e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63995e+05   -1.16137e+04   -1.48996e+06    8.87051e+03   -1.23747e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32853e+05   -1.00462e+06   -1.20697e+06    3.10622e+02   -2.12093e+02
+ Pressure (bar)   Constr. rmsd
+    7.26519e+01    2.59902e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 18999  vol min/aver 0.603! load imb.: force  3.1%  pme mesh/force 0.847
+           Step           Time
+          19000       38.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34837e+04    1.51906e+04    8.55346e+02    6.43667e+03    5.53628e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.65141e+05   -1.16021e+04   -1.48936e+06    9.04496e+03   -1.23545e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.34036e+05   -1.00141e+06   -1.20724e+06    3.12199e+02   -2.11672e+02
+ Pressure (bar)   Constr. rmsd
+    7.28704e+01    2.73638e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 19999  vol min/aver 0.603! load imb.: force  3.7%  pme mesh/force 0.889
+           Step           Time
+          20000       40.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34646e+04    1.51927e+04    8.20565e+02    6.39778e+03    5.52040e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63275e+05   -1.15863e+04   -1.48651e+06    9.14127e+03   -1.23460e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32043e+05   -1.00256e+06   -1.20749e+06    3.09541e+02   -2.11095e+02
+ Pressure (bar)   Constr. rmsd
+   -6.30174e+01    2.90043e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 20999  vol min/aver 0.604! load imb.: force  3.3%  pme mesh/force 0.870
+           Step           Time
+          21000       42.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34079e+04    1.53438e+04    8.28401e+02    6.42689e+03    5.54868e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64319e+05   -1.16081e+04   -1.48790e+06    9.06708e+03   -1.23463e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31969e+05   -1.00266e+06   -1.20724e+06    3.09443e+02   -2.11889e+02
+ Pressure (bar)   Constr. rmsd
+   -2.19922e+01    2.87503e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 21999  vol min/aver 0.604! load imb.: force  2.9%  pme mesh/force 0.864
+           Step           Time
+          22000       44.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33337e+04    1.55057e+04    8.16128e+02    6.42403e+03    5.53706e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63596e+05   -1.16158e+04   -1.48561e+06    9.15144e+03   -1.23303e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32801e+05   -1.00023e+06   -1.20742e+06    3.10551e+02   -2.12169e+02
+ Pressure (bar)   Constr. rmsd
+    7.69572e+01    2.80635e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 22999  vol min/aver 0.603! load imb.: force  2.2%  pme mesh/force 0.812
+           Step           Time
+          23000       46.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34333e+04    1.54055e+04    8.94525e+02    6.42103e+03    5.53506e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63230e+05   -1.16031e+04   -1.48511e+06    9.12868e+03   -1.23285e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31119e+05   -1.00173e+06   -1.20780e+06    3.08308e+02   -2.11709e+02
+ Pressure (bar)   Constr. rmsd
+    2.80206e+01    2.75869e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 23999  vol min/aver 0.603! load imb.: force  2.0%  pme mesh/force 0.762
+           Step           Time
+          24000       48.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33394e+04    1.54076e+04    8.35748e+02    6.44155e+03    5.54640e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63011e+05   -1.15799e+04   -1.48414e+06    9.19348e+03   -1.23202e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32040e+05   -9.99983e+05   -1.20812e+06    3.09536e+02   -2.10862e+02
+ Pressure (bar)   Constr. rmsd
+    1.01667e+01    2.81827e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 24999  vol min/aver 0.603! load imb.: force  2.0%  pme mesh/force 0.883
+           Step           Time
+          25000       50.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.35266e+04    1.54492e+04    8.09658e+02    6.47490e+03    5.52746e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63039e+05   -1.15742e+04   -1.48716e+06    8.87896e+03   -1.23528e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.33261e+05   -1.00202e+06   -1.20820e+06    3.11165e+02   -2.10654e+02
+ Pressure (bar)   Constr. rmsd
+   -1.07525e+02    2.75713e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 25999  vol min/aver 0.603! load imb.: force  2.1%  pme mesh/force 0.933
+           Step           Time
+          26000       52.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.31024e+04    1.52410e+04    8.29955e+02    6.49194e+03    5.53792e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63282e+05   -1.15911e+04   -1.48728e+06    9.19265e+03   -1.23536e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.30546e+05   -1.00481e+06   -1.20817e+06    3.07544e+02   -2.11269e+02
+ Pressure (bar)   Constr. rmsd
+   -2.09859e+01    2.78470e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 26999  vol min/aver 0.603! load imb.: force  1.4%  pme mesh/force 0.904
+           Step           Time
+          27000       54.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.35859e+04    1.52171e+04    8.02909e+02    6.41303e+03    5.54466e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63885e+05   -1.15904e+04   -1.48682e+06    8.90427e+03   -1.23415e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31875e+05   -1.00228e+06   -1.20833e+06    3.09317e+02   -2.11245e+02
+ Pressure (bar)   Constr. rmsd
+   -2.96202e+01    2.80572e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 27999  vol min/aver 0.604! load imb.: force  2.2%  pme mesh/force 0.899
+           Step           Time
+          28000       56.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32743e+04    1.52891e+04    7.10298e+02    6.46547e+03    5.54804e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64378e+05   -1.16076e+04   -1.48891e+06    9.12484e+03   -1.23580e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31323e+05   -1.00448e+06   -1.20831e+06    3.08581e+02   -2.11873e+02
+ Pressure (bar)   Constr. rmsd
+   -1.24492e+01    2.88432e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 28999  vol min/aver 0.603! load imb.: force  3.3%  pme mesh/force 0.843
+           Step           Time
+          29000       58.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.36898e+04    1.52396e+04    8.73482e+02    6.47182e+03    5.55641e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63387e+05   -1.15893e+04   -1.48637e+06    9.10663e+03   -1.23363e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.34104e+05   -9.99528e+05   -1.20870e+06    3.12290e+02   -2.11204e+02
+ Pressure (bar)   Constr. rmsd
+    1.75928e+01    2.75540e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 29999  vol min/aver 0.603! load imb.: force  3.3%  pme mesh/force 0.859
+           Step           Time
+          30000       60.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34031e+04    1.52082e+04    8.02640e+02    6.43301e+03    5.55334e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63768e+05   -1.16047e+04   -1.48648e+06    9.07896e+03   -1.23385e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31550e+05   -1.00230e+06   -1.20865e+06    3.08884e+02   -2.11766e+02
+ Pressure (bar)   Constr. rmsd
+    2.64600e+01    2.79363e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 30999  vol min/aver 0.604! load imb.: force  2.9%  pme mesh/force 0.881
+           Step           Time
+          31000       62.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.35185e+04    1.53520e+04    9.00362e+02    6.37144e+03    5.57317e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64541e+05   -1.16004e+04   -1.48700e+06    9.11271e+03   -1.23307e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32426e+05   -1.00065e+06   -1.20888e+06    3.10052e+02   -2.11610e+02
+ Pressure (bar)   Constr. rmsd
+    4.01045e+01    2.81578e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 31999  vol min/aver 0.603! load imb.: force  1.5%  pme mesh/force 0.928
+           Step           Time
+          32000       64.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.31287e+04    1.52322e+04    8.62478e+02    6.38220e+03    5.53678e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64062e+05   -1.15742e+04   -1.48760e+06    9.06026e+03   -1.23507e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31544e+05   -1.00353e+06   -1.20932e+06    3.08876e+02   -2.10654e+02
+ Pressure (bar)   Constr. rmsd
+   -1.00162e+01    2.76699e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 32999  vol min/aver 0.603! load imb.: force  3.9%  pme mesh/force 0.814
+           Step           Time
+          33000       66.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33068e+04    1.53784e+04    8.28251e+02    6.46237e+03    5.54018e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.61806e+05   -1.15413e+04   -1.48313e+06    9.06156e+03   -1.23242e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31722e+05   -1.00070e+06   -1.20985e+06    3.09113e+02   -2.09461e+02
+ Pressure (bar)   Constr. rmsd
+   -1.02004e+02    2.71047e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 33999  vol min/aver 0.603! load imb.: force  2.7%  pme mesh/force 0.840
+           Step           Time
+          34000       68.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33939e+04    1.54506e+04    8.40470e+02    6.52357e+03    5.54906e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.62091e+05   -1.15630e+04   -1.48460e+06    9.04055e+03   -1.23333e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.33330e+05   -1.00000e+06   -1.20976e+06    3.11258e+02   -2.10249e+02
+ Pressure (bar)   Constr. rmsd
+   -7.26041e+01    2.74103e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 34999  vol min/aver 0.603! load imb.: force  3.1%  pme mesh/force 0.855
+           Step           Time
+          35000       70.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.35060e+04    1.52594e+04    7.61904e+02    6.44937e+03    5.56616e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63318e+05   -1.15584e+04   -1.48632e+06    8.89428e+03   -1.23402e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.33067e+05   -1.00096e+06   -1.20994e+06    3.10907e+02   -2.10081e+02
+ Pressure (bar)   Constr. rmsd
+   -1.06246e+02    2.85342e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 35999  vol min/aver 0.603! load imb.: force  2.1%  pme mesh/force 0.896
+           Step           Time
+          36000       72.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32329e+04    1.53413e+04    8.07412e+02    6.35930e+03    5.53350e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.65275e+05   -1.15753e+04   -1.49010e+06    9.00705e+03   -1.23632e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31596e+05   -1.00472e+06   -1.20975e+06    3.08945e+02   -2.10696e+02
+ Pressure (bar)   Constr. rmsd
+   -6.86661e+00    2.82288e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 36999  vol min/aver 0.603! load imb.: force  3.7%  pme mesh/force 0.894
+           Step           Time
+          37000       74.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34683e+04    1.52765e+04    8.04115e+02    6.47668e+03    5.57350e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.62465e+05   -1.15693e+04   -1.48465e+06    9.02115e+03   -1.23297e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.30734e+05   -1.00223e+06   -1.20986e+06    3.07795e+02   -2.10478e+02
+ Pressure (bar)   Constr. rmsd
+   -8.25716e+01    2.81179e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 37999  vol min/aver 0.603! load imb.: force  2.6%  pme mesh/force 0.871
+           Step           Time
+          38000       76.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32679e+04    1.53884e+04    7.55136e+02    6.48957e+03    5.57900e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63453e+05   -1.15982e+04   -1.48607e+06    9.05256e+03   -1.23347e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32495e+05   -1.00098e+06   -1.20980e+06    3.10144e+02   -2.11529e+02
+ Pressure (bar)   Constr. rmsd
+    2.46436e+01    2.76302e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 38999  vol min/aver 0.603! load imb.: force  6.0%  pme mesh/force 0.833
+           Step           Time
+          39000       78.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33275e+04    1.54260e+04    8.53151e+02    6.42459e+03    5.56899e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63306e+05   -1.15985e+04   -1.48684e+06    9.04351e+03   -1.23437e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32385e+05   -1.00198e+06   -1.20987e+06    3.09997e+02   -2.11539e+02
+ Pressure (bar)   Constr. rmsd
+   -1.74318e+01    2.72182e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 39999  vol min/aver 0.603! load imb.: force  2.9%  pme mesh/force 0.884
+           Step           Time
+          40000       80.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33441e+04    1.54199e+04    9.17819e+02    6.41789e+03    5.52720e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64015e+05   -1.16060e+04   -1.48667e+06    9.06951e+03   -1.23382e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31920e+05   -1.00190e+06   -1.20984e+06    3.09377e+02   -2.11814e+02
+ Pressure (bar)   Constr. rmsd
+    2.29329e+01    2.81340e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 40999  vol min/aver 0.603! load imb.: force  2.9%  pme mesh/force 0.912
+           Step           Time
+          41000       82.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.29856e+04    1.53150e+04    7.62633e+02    6.42513e+03    5.55374e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63576e+05   -1.15867e+04   -1.48810e+06    8.90028e+03   -1.23619e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32001e+05   -1.00419e+06   -1.21024e+06    3.09485e+02   -2.11109e+02
+ Pressure (bar)   Constr. rmsd
+   -1.23783e+01    2.72530e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 41999  vol min/aver 0.603! load imb.: force  1.9%  pme mesh/force 0.858
+           Step           Time
+          42000       84.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.28123e+04    1.53385e+04    9.22985e+02    6.38916e+03    5.58303e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64815e+05   -1.15914e+04   -1.49019e+06    9.03788e+03   -1.23664e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32350e+05   -1.00429e+06   -1.21038e+06    3.09951e+02   -2.11282e+02
+ Pressure (bar)   Constr. rmsd
+    3.43113e+01    2.72803e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 42999  vol min/aver 0.604! load imb.: force  4.3%  pme mesh/force 0.822
+           Step           Time
+          43000       86.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.30176e+04    1.55052e+04    8.49032e+02    6.50068e+03    5.54782e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.65256e+05   -1.16101e+04   -1.49033e+06    8.90292e+03   -1.23643e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.30889e+05   -1.00554e+06   -1.21013e+06    3.08001e+02   -2.11963e+02
+ Pressure (bar)   Constr. rmsd
+    1.45289e+02    2.64346e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 43999  vol min/aver 0.603! load imb.: force  2.2%  pme mesh/force 0.826
+           Step           Time
+          44000       88.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32799e+04    1.53584e+04    7.80186e+02    6.40739e+03    5.55188e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.62894e+05   -1.15972e+04   -1.48494e+06    8.89295e+03   -1.23340e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.33448e+05   -9.99956e+05   -1.21053e+06    3.11415e+02   -2.11491e+02
+ Pressure (bar)   Constr. rmsd
+    1.01308e+01    2.72502e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 44999  vol min/aver 0.604! load imb.: force  3.0%  pme mesh/force 0.805
+           Step           Time
+          45000       90.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32339e+04    1.54205e+04    8.41405e+02    6.44900e+03    5.56977e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.65202e+05   -1.16127e+04   -1.48850e+06    8.91260e+03   -1.23436e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32686e+05   -1.00168e+06   -1.21040e+06    3.10398e+02   -2.12058e+02
+ Pressure (bar)   Constr. rmsd
+    1.77244e+02    2.67337e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 45999  vol min/aver 0.604! load imb.: force  1.6%  pme mesh/force 0.884
+           Step           Time
+          46000       92.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34873e+04    1.54378e+04    8.36126e+02    6.44647e+03    5.58275e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64423e+05   -1.16169e+04   -1.48800e+06    8.94545e+03   -1.23422e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32535e+05   -1.00168e+06   -1.21048e+06    3.10198e+02   -2.12211e+02
+ Pressure (bar)   Constr. rmsd
+    6.84192e+01    2.79376e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 46999  vol min/aver 0.603! load imb.: force  3.7%  pme mesh/force 0.798
+           Step           Time
+          47000       94.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.34922e+04    1.52543e+04    8.19301e+02    6.41933e+03    5.56901e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64033e+05   -1.16004e+04   -1.48678e+06    9.09801e+03   -1.23358e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31839e+05   -1.00174e+06   -1.21083e+06    3.09268e+02   -2.11608e+02
+ Pressure (bar)   Constr. rmsd
+    4.70649e+01    2.78868e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 47999  vol min/aver 0.603! load imb.: force  2.0%  pme mesh/force 0.943
+           Step           Time
+          48000       96.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32208e+04    1.53630e+04    8.43924e+02    6.48836e+03    5.56692e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63306e+05   -1.16035e+04   -1.48763e+06    9.04202e+03   -1.23530e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.33171e+05   -1.00213e+06   -1.21094e+06    3.11045e+02   -2.11722e+02
+ Pressure (bar)   Constr. rmsd
+    6.61860e+01    2.65391e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 48999  vol min/aver 0.604! load imb.: force  6.1%  pme mesh/force 0.860
+           Step           Time
+          49000       98.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.32684e+04    1.52294e+04    9.09121e+02    6.42245e+03    5.57459e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.64294e+05   -1.16120e+04   -1.48693e+06    9.00718e+03   -1.23366e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32399e+05   -1.00126e+06   -1.21101e+06    3.10015e+02   -2.12032e+02
+ Pressure (bar)   Constr. rmsd
+    1.79860e+02    2.61224e-05
+
+
+DD  load balancing is limited by minimum cell size in dimension X
+DD  step 49999  vol min/aver 0.603! load imb.: force  2.2%  pme mesh/force 0.820
+           Step           Time
+          50000      100.00000
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.36547e+04    1.56233e+04    8.90323e+02    6.37358e+03    5.57002e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63732e+05   -1.15953e+04   -1.48855e+06    8.92042e+03   -1.23525e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.32575e+05   -1.00268e+06   -1.21123e+06    3.10251e+02   -2.11422e+02
+ Pressure (bar)   Constr. rmsd
+    1.53043e+01    2.70322e-05
+
+
+Energy conservation over simulation part #1 of length 100 ps, time 0 to 100 ps
+  Conserved energy drift: -1.44e-03 kJ/mol/ps per atom
+
+
+	<======  ###############  ==>
+	<====  A V E R A G E S  ====>
+	<==  ###############  ======>
+
+	Statistics over 50001 steps using 501 frames
+
+   Energies (kJ/mol)
+          Angle    Proper Dih. Per. Imp. Dih.          LJ-14     Coulomb-14
+    1.33099e+04    1.53521e+04    8.24797e+02    6.44323e+03    5.54955e+04
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    1.63991e+05   -1.16084e+04   -1.48780e+06    8.99627e+03   -1.23500e+06
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    2.31769e+05   -1.00323e+06   -1.20790e+06    3.09176e+02   -2.11904e+02
+ Pressure (bar)   Constr. rmsd
+    4.69129e+00    0.00000e+00
+
+          Box-X          Box-Y          Box-Z
+    9.69331e+00    9.69331e+00    9.69331e+00
+
+   Total Virial (kJ/mol)
+    7.70442e+04    1.84333e+02   -1.02209e+02
+    1.84267e+02    7.73786e+04    1.43274e+02
+   -1.01841e+02    1.43487e+02    7.69826e+04
+
+   Pressure (bar)
+    8.25156e+00   -6.42951e+00    4.01047e+00
+   -6.42715e+00   -9.60203e-01   -2.03597e+00
+    3.99701e+00   -2.04373e+00    6.78250e+00
+
+      T-Protein  T-non-Protein
+    3.09440e+02    3.09157e+02
+
+
+	M E G A - F L O P S   A C C O U N T I N G
+
+ NB=Group-cutoff nonbonded kernels    NxN=N-by-N cluster Verlet kernels
+ RF=Reaction-Field  VdW=Van der Waals  QSTab=quadratic-spline table
+ W3=SPC/TIP3p  W4=TIP4p (single or pairs)
+ V&F=Potential and force  V=Potential only  F=Force only
+
+ Computing:                               M-Number         M-Flops  % Flops
+-----------------------------------------------------------------------------
+ Pair Search distance check            4477.662320       40298.961     0.0
+ NxN Ewald Elec. + LJ [F]           4381326.582336   289167554.434    98.0
+ NxN Ewald Elec. + LJ [V&F]           44344.123264     4744821.189     1.6
+ 1,4 nonbonded interactions             800.866017       72077.942     0.0
+ Reset In Box                            45.058000         135.174     0.0
+ CG-CoM                                  45.148116         135.444     0.0
+ Angles                                 554.911098       93225.064     0.0
+ Propers                                848.566971      194321.836     0.1
+ Impropers                               66.301326       13790.676     0.0
+ Virial                                  45.260841         814.695     0.0
+ Stop-CM                                 45.148116         451.481     0.0
+ P-Coupling                              45.148116         270.889     0.0
+ Calc-Ekin                              901.340232       24336.186     0.0
+ Lincs                                  434.640649       26078.439     0.0
+ Lincs-Mat                             9291.781212       37167.125     0.0
+ Constraint-V                          5242.392176       47181.530     0.0
+ Constraint-Vir                          48.172582        1156.142     0.0
+ Settle                                1457.703626      539350.342     0.2
+-----------------------------------------------------------------------------
+ Total                                               295003167.549   100.0
+-----------------------------------------------------------------------------
+
+
+    D O M A I N   D E C O M P O S I T I O N   S T A T I S T I C S
+
+ av. #atoms communicated per step for force:  2 x 54507.8
+ av. #atoms communicated per step for LINCS:  2 x 6159.6
+
+
+Dynamic load balancing report:
+ DLB was permanently on during the run per user request.
+ Average load imbalance: 3.2%.
+ The balanceable part of the MD step is 34%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 1.1%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 %
+ Average PME mesh/force load: 0.861
+ Part of the total run time spent waiting due to PP/PME imbalance: 0.4 %
+
+
+      R E A L   C Y C L E   A N D   T I M E   A C C O U N T I N G
+
+On 5 MPI ranks doing PP, each using 5 OpenMP threads, and
+on 1 MPI rank doing PME, using 5 OpenMP threads
+
+ Activity:              Num   Num      Call    Wall time         Giga-Cycles
+                        Ranks Threads  Count      (s)         total sum    %
+--------------------------------------------------------------------------------
+ Domain decomp.            5    5        500       2.066        123.685   1.9
+ DD comm. load             5    5        500       0.017          0.994   0.0
+ DD comm. bounds           5    5        500       0.021          1.252   0.0
+ Send X to PME             5    5      50001       1.782        106.663   1.7
+ Neighbor search           5    5        501       1.104         66.084   1.0
+ Launch PP GPU ops.        5    5     199002      12.514        749.012  11.6
+ Comm. coord.              5    5      49500       3.857        230.854   3.6
+ Force                     5    5      50001       2.887        172.817   2.7
+ Wait + Comm. F            5    5      50001       4.176        249.980   3.9
+ PME GPU mesh *            1    5      50001      12.841        153.726   2.4
+ PME wait for PP *                                77.126        923.277  14.3
+ Wait + Recv. PME F        5    5      50001       0.405         24.238   0.4
+ Wait GPU NB nonloc.       5    5      50001       0.429         25.655   0.4
+ Wait GPU NB local         5    5      50001       0.176         10.558   0.2
+ Wait GPU state copy       5    5      99000      46.877       2805.799  43.4
+ NB X/F buffer ops.        5    5       1503       0.019          1.123   0.0
+ Write traj.               5    5         11       0.021          1.238   0.0
+ Update                    5    5      50001       1.140         68.261   1.1
+ Constraints               5    5      50001      11.120        665.614  10.3
+ Kinetic energy            5    5      10001       0.265         15.849   0.2
+ Comm. energies            5    5       5001       0.178         10.662   0.2
+ Rest                                              0.917         54.883   0.8
+--------------------------------------------------------------------------------
+ Total                                            89.971       6462.264 100.0
+--------------------------------------------------------------------------------
+(*) Note that with separate PME ranks, the walltime column actually sums to
+    twice the total reported, but the cycle count total and % are correct.
+--------------------------------------------------------------------------------
+ Breakdown of PME mesh activities
+--------------------------------------------------------------------------------
+ Wait PME GPU gather       1    5      50001       0.112          1.341   0.0
+ Launch PME GPU ops.       1    5     650514      10.651        127.500   2.0
+ Wait PME Recv. PP X       1    5     250005       3.243         38.818   0.6
+--------------------------------------------------------------------------------
+ Note that the cycle count and % columns are weighted by the number of ranks,
+ while walltimes are not. Hence, with separate PME ranks, the fraction of each
+ activity's walltime does not correspond to the cycle %.
+--------------------------------------------------------------------------------
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     2698.971       89.971     2999.8
+                 (ns/day)    (hour/ns)
+Performance:       96.033        0.250
+Finished mdrun on rank 0 Tue Dec  9 23:15:00 2025
+

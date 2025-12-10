@@ -1,0 +1,8 @@
+========================================
+Task ID: 174, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED

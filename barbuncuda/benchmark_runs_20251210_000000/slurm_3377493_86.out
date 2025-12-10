@@ -1,0 +1,10 @@
+GROMACS environment loaded!
+========================================
+Task ID: 186, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+Task 186 completed

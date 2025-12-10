@@ -1,0 +1,1536 @@
+========================================
+Task ID: 0, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 87.479 ns/day
+========================================
+Task ID: 100, Node: barbun137
+CPUs (ntmpi): 7, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 86.953 ns/day
+========================================
+Task ID: 101, Node: barbun137
+CPUs (ntmpi): 7, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 91.376 ns/day
+========================================
+Task ID: 102, Node: barbun137
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 78.568 ns/day
+========================================
+Task ID: 103, Node: barbun137
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 89.554 ns/day
+========================================
+Task ID: 104, Node: barbun137
+CPUs (ntmpi): 7, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 88.426 ns/day
+========================================
+Task ID: 105, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 89.542 ns/day
+========================================
+Task ID: 106, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 90.647 ns/day
+========================================
+Task ID: 107, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 127.792 ns/day
+========================================
+Task ID: 108, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 93.860 ns/day
+========================================
+Task ID: 109, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 84.244 ns/day
+========================================
+Task ID: 10, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 98.768 ns/day
+========================================
+Task ID: 110, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 93.935 ns/day
+========================================
+Task ID: 111, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 128.846 ns/day
+========================================
+Task ID: 112, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 92.221 ns/day
+========================================
+Task ID: 113, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 94.535 ns/day
+========================================
+Task ID: 114, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 87.723 ns/day
+========================================
+Task ID: 115, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 135.345 ns/day
+========================================
+Task ID: 116, Node: barbun137
+CPUs (ntmpi): 8, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 145.010 ns/day
+========================================
+Task ID: 117, Node: barbun137
+CPUs (ntmpi): 9, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 82.009 ns/day
+========================================
+Task ID: 118, Node: barbun137
+CPUs (ntmpi): 9, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 86.635 ns/day
+========================================
+Task ID: 119, Node: barbun137
+CPUs (ntmpi): 9, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 86.308 ns/day
+========================================
+Task ID: 11, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 102.816 ns/day
+========================================
+Task ID: 120, Node: barbun137
+CPUs (ntmpi): 9, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 84.559 ns/day
+========================================
+Task ID: 121, Node: barbun137
+CPUs (ntmpi): 9, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 90.851 ns/day
+========================================
+Task ID: 122, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 76.910 ns/day
+========================================
+Task ID: 123, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 81.036 ns/day
+========================================
+Task ID: 124, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 83.835 ns/day
+========================================
+Task ID: 125, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 108.248 ns/day
+========================================
+Task ID: 126, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 112.117 ns/day
+========================================
+Task ID: 127, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 81.459 ns/day
+========================================
+Task ID: 128, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 83.721 ns/day
+========================================
+Task ID: 129, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 3
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 110.768 ns/day
+========================================
+Task ID: 12, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 86.019 ns/day
+========================================
+Task ID: 130, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 86.137 ns/day
+========================================
+Task ID: 131, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 85.748 ns/day
+========================================
+Task ID: 132, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 87.729 ns/day
+========================================
+Task ID: 133, Node: barbun137
+CPUs (ntmpi): 10, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 119.977 ns/day
+========================================
+Task ID: 134, Node: barbun137
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 84.892 ns/day
+========================================
+Task ID: 135, Node: barbun137
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 86.113 ns/day
+========================================
+Task ID: 136, Node: barbun137
+CPUs (ntmpi): 11, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 85.125 ns/day
+========================================
+Task ID: 137, Node: barbun137
+CPUs (ntmpi): 11, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 85.654 ns/day
+========================================
+Task ID: 138, Node: barbun137
+CPUs (ntmpi): 11, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 84.971 ns/day
+========================================
+Task ID: 139, Node: barbun137
+CPUs (ntmpi): 13, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 79.113 ns/day
+========================================
+Task ID: 13, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 98.171 ns/day
+========================================
+Task ID: 140, Node: barbun137
+CPUs (ntmpi): 13, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 81.922 ns/day
+========================================
+Task ID: 141, Node: barbun137
+CPUs (ntmpi): 13, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 78.699 ns/day
+========================================
+Task ID: 142, Node: barbun137
+CPUs (ntmpi): 13, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 76.766 ns/day
+========================================
+Task ID: 143, Node: barbun137
+CPUs (ntmpi): 13, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 83.580 ns/day
+========================================
+Task ID: 144, Node: barbun137
+CPUs (ntmpi): 15, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 76.095 ns/day
+========================================
+Task ID: 145, Node: barbun137
+CPUs (ntmpi): 15, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 72.381 ns/day
+========================================
+Task ID: 146, Node: barbun137
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 75.715 ns/day
+========================================
+Task ID: 147, Node: barbun137
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 74.005 ns/day
+========================================
+Task ID: 148, Node: barbun137
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 77.756 ns/day
+========================================
+Task ID: 149, Node: barbun137
+CPUs (ntmpi): 16, Threads (ntomp): 2
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 119.577 ns/day
+========================================
+Task ID: 14, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 94.696 ns/day
+========================================
+Task ID: 150, Node: barbun137
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 72.943 ns/day
+========================================
+Task ID: 151, Node: barbun137
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 76.732 ns/day
+========================================
+Task ID: 152, Node: barbun137
+CPUs (ntmpi): 17, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 73.999 ns/day
+========================================
+Task ID: 153, Node: barbun137
+CPUs (ntmpi): 19, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 58.122 ns/day
+========================================
+Task ID: 154, Node: barbun137
+CPUs (ntmpi): 19, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 55.950 ns/day
+========================================
+Task ID: 155, Node: barbun137
+CPUs (ntmpi): 19, Threads (ntomp): 2
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 57.913 ns/day
+========================================
+Task ID: 156, Node: barbun137
+CPUs (ntmpi): 21, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 67.249 ns/day
+========================================
+Task ID: 157, Node: barbun137
+CPUs (ntmpi): 21, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 62.766 ns/day
+========================================
+Task ID: 158, Node: barbun137
+CPUs (ntmpi): 21, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 66.331 ns/day
+========================================
+Task ID: 159, Node: barbun137
+CPUs (ntmpi): 25, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 45.212 ns/day
+========================================
+Task ID: 15, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 102.301 ns/day
+========================================
+Task ID: 160, Node: barbun137
+CPUs (ntmpi): 26, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 57.662 ns/day
+========================================
+Task ID: 161, Node: barbun137
+CPUs (ntmpi): 26, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 51.928 ns/day
+========================================
+Task ID: 162, Node: barbun137
+CPUs (ntmpi): 26, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 101.492 ns/day
+========================================
+Task ID: 163, Node: barbun137
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 40.486 ns/day
+========================================
+Task ID: 164, Node: barbun137
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 42.144 ns/day
+========================================
+Task ID: 165, Node: barbun137
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 71.565 ns/day
+========================================
+Task ID: 166, Node: barbun137
+CPUs (ntmpi): 28, Threads (ntomp): 1
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 74.997 ns/day
+========================================
+Task ID: 167, Node: barbun137
+CPUs (ntmpi): 31, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 38.096 ns/day
+========================================
+Task ID: 168, Node: barbun137
+CPUs (ntmpi): 33, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 35.711 ns/day
+========================================
+Task ID: 169, Node: barbun137
+CPUs (ntmpi): 33, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 31.336 ns/day
+========================================
+Task ID: 16, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 13
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 113.796 ns/day
+========================================
+Task ID: 170, Node: barbun137
+CPUs (ntmpi): 33, Threads (ntomp): 1
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 34.053 ns/day
+========================================
+Task ID: 171, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 172, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 173, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 174, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 175, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 176, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 177, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 178, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 179, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 17, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 14
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 94.221 ns/day
+========================================
+Task ID: 180, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 181, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 182, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 183, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 184, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 185, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 186, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 187, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 188, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 189, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 18, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 14
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 93.194 ns/day
+========================================
+Task ID: 190, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 191, Node: barbun137
+CPUs (ntmpi): , Threads (ntomp): 
+GPUs: , DLB: , NOTUNEPME: , PIN: 
+Command: 
+========================================
+Running:  -nsteps 50000 -noconfout -dlb 
+Status: FAILED
+========================================
+Task ID: 19, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 14
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 111.287 ns/day
+========================================
+Task ID: 1, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 96.341 ns/day
+========================================
+Task ID: 20, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 91.060 ns/day
+========================================
+Task ID: 21, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 89.774 ns/day
+========================================
+Task ID: 22, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 100.321 ns/day
+========================================
+Task ID: 23, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 15
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 107.077 ns/day
+========================================
+Task ID: 24, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 88.784 ns/day
+========================================
+Task ID: 25, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 99.567 ns/day
+========================================
+Task ID: 26, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 98.659 ns/day
+========================================
+Task ID: 27, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 104.825 ns/day
+========================================
+Task ID: 28, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 16
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 116.031 ns/day
+========================================
+Task ID: 29, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 84.305 ns/day
+========================================
+Task ID: 2, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 93.722 ns/day
+========================================
+Task ID: 30, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 91.198 ns/day
+========================================
+Task ID: 31, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 91.844 ns/day
+========================================
+Task ID: 32, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 89.768 ns/day
+========================================
+Task ID: 33, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 98.960 ns/day
+========================================
+Task ID: 34, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 87.457 ns/day
+========================================
+Task ID: 35, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 95.749 ns/day
+========================================
+Task ID: 36, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 87.779 ns/day
+========================================
+Task ID: 37, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 84.050 ns/day
+========================================
+Task ID: 38, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 93.164 ns/day
+========================================
+Task ID: 39, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 88.203 ns/day
+========================================
+Task ID: 3, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 98.860 ns/day
+========================================
+Task ID: 40, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 89.296 ns/day
+========================================
+Task ID: 41, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 98.976 ns/day
+========================================
+Task ID: 42, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 90.542 ns/day
+========================================
+Task ID: 43, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 92.899 ns/day
+========================================
+Task ID: 44, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 84.369 ns/day
+========================================
+Task ID: 45, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 78.788 ns/day
+========================================
+Task ID: 46, Node: barbun137
+CPUs (ntmpi): 3, Threads (ntomp): 13
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 96.121 ns/day
+========================================
+Task ID: 47, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 93.453 ns/day
+========================================
+Task ID: 48, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 89.787 ns/day
+========================================
+Task ID: 49, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 96.766 ns/day
+========================================
+Task ID: 4, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 10
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 111.958 ns/day
+========================================
+Task ID: 50, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 102.081 ns/day
+========================================
+Task ID: 51, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 94.975 ns/day
+========================================
+Task ID: 52, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 96.271 ns/day
+========================================
+Task ID: 53, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 93.896 ns/day
+========================================
+Task ID: 54, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 106.032 ns/day
+========================================
+Task ID: 55, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 122.449 ns/day
+========================================
+Task ID: 56, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 87.119 ns/day
+========================================
+Task ID: 57, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 98.521 ns/day
+========================================
+Task ID: 58, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 7
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 104.629 ns/day
+========================================
+Task ID: 59, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 95.063 ns/day
+========================================
+Task ID: 5, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 92.245 ns/day
+========================================
+Task ID: 60, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 91.348 ns/day
+========================================
+Task ID: 61, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 96.835 ns/day
+========================================
+Task ID: 62, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 8
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 107.187 ns/day
+========================================
+Task ID: 63, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 88.941 ns/day
+========================================
+Task ID: 64, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 96.444 ns/day
+========================================
+Task ID: 65, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 87.633 ns/day
+========================================
+Task ID: 66, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 110.357 ns/day
+========================================
+Task ID: 67, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 9
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 122.459 ns/day
+========================================
+Task ID: 68, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 87.620 ns/day
+========================================
+Task ID: 69, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 10
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 101.651 ns/day
+========================================
+Task ID: 6, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 11
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 89.852 ns/day
+========================================
+Task ID: 70, Node: barbun137
+CPUs (ntmpi): 4, Threads (ntomp): 10
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 112.736 ns/day
+========================================
+Task ID: 71, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 92.336 ns/day
+========================================
+Task ID: 72, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 88.886 ns/day
+========================================
+Task ID: 73, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 93.665 ns/day
+========================================
+Task ID: 74, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 96.044 ns/day
+========================================
+Task ID: 75, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 95.978 ns/day
+========================================
+Task ID: 76, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 94.295 ns/day
+========================================
+Task ID: 77, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 89.734 ns/day
+========================================
+Task ID: 78, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 95.185 ns/day
+========================================
+Task ID: 79, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 95.934 ns/day
+========================================
+Task ID: 7, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 11
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 109.067 ns/day
+========================================
+Task ID: 80, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 89.606 ns/day
+========================================
+Task ID: 81, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 7
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 98.068 ns/day
+========================================
+Task ID: 82, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 94.429 ns/day
+========================================
+Task ID: 83, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 93.478 ns/day
+========================================
+Task ID: 84, Node: barbun137
+CPUs (ntmpi): 5, Threads (ntomp): 8
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 95.411 ns/day
+========================================
+Task ID: 85, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 93.156 ns/day
+========================================
+Task ID: 86, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 95.627 ns/day
+========================================
+Task ID: 87, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 4
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 135.277 ns/day
+========================================
+Task ID: 88, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 98.539 ns/day
+========================================
+Task ID: 89, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 93.203 ns/day
+========================================
+Task ID: 8, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 92.667 ns/day
+========================================
+Task ID: 90, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 96.033 ns/day
+========================================
+Task ID: 91, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 5
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 147.851 ns/day
+========================================
+Task ID: 92, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 95.909 ns/day
+========================================
+Task ID: 93, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 92.870 ns/day
+========================================
+Task ID: 94, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 95.280 ns/day
+========================================
+Task ID: 95, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes
+Performance: 133.254 ns/day
+========================================
+Task ID: 96, Node: barbun137
+CPUs (ntmpi): 6, Threads (ntomp): 6
+GPUs: 2, DLB: yes, NOTUNEPME: 1, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on
+Performance: 139.999 ns/day
+========================================
+Task ID: 97, Node: barbun137
+CPUs (ntmpi): 7, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 1
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on
+Performance: 85.718 ns/day
+========================================
+Task ID: 98, Node: barbun137
+CPUs (ntmpi): 7, Threads (ntomp): 3
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 88.537 ns/day
+========================================
+Task ID: 99, Node: barbun137
+CPUs (ntmpi): 7, Threads (ntomp): 4
+GPUs: 1, DLB: yes, NOTUNEPME: 1, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme
+Performance: 89.595 ns/day
+========================================
+Task ID: 9, Node: barbun137
+CPUs (ntmpi): 2, Threads (ntomp): 12
+GPUs: 1, DLB: yes, NOTUNEPME: 0, PIN: 0
+Command: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0
+========================================
+Running: gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes
+Performance: 88.020 ns/day
