@@ -1,172 +1,172 @@
-task_id,performance_ns_per_day,ntmpi,ntomp,gpus,gpu_id,bonded,npme,dlb,notunepme,pin,node,command,running_command
-91,147.851,6,5,2,01,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-116,145.01,8,5,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-96,139.999,6,6,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-115,135.345,8,5,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-87,135.277,6,4,2,01,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-95,133.254,6,6,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-111,128.846,8,4,2,01,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-107,127.792,8,3,2,01,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-67,122.459,4,9,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-55,122.449,4,6,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-133,119.977,10,4,2,01,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-149,119.577,16,2,2,01,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-28,116.031,2,16,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-16,113.796,2,13,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-70,112.736,4,10,2,01,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-126,112.117,10,2,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-4,111.958,2,10,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-19,111.287,2,14,2,01,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-129,110.768,10,3,2,01,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-66,110.357,4,9,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-7,109.067,2,11,2,01,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-125,108.248,10,2,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-62,107.187,4,8,2,01,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-23,107.077,2,15,2,01,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-54,106.032,4,6,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-27,104.825,2,16,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-58,104.629,4,7,2,01,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-11,102.816,2,12,2,01,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-15,102.301,2,13,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-50,102.081,4,5,2,01,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-69,101.651,4,10,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-162,101.492,26,1,2,01,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-22,100.321,2,15,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-25,99.567,2,16,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-41,98.976,3,11,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-33,98.96,3,8,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-3,98.86,2,10,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-10,98.768,2,12,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-26,98.659,2,16,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-88,98.539,6,5,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-57,98.521,4,7,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-13,98.171,2,13,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-81,98.068,5,7,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-61,96.835,4,8,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-49,96.766,4,5,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-64,96.444,4,9,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-1,96.341,2,10,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-52,96.271,4,6,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-46,96.121,3,13,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-74,96.044,5,5,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-90,96.033,6,5,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-75,95.978,5,5,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-79,95.934,5,7,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-92,95.909,6,6,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-35,95.749,3,9,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-86,95.627,6,4,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-84,95.411,5,8,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-94,95.28,6,6,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-78,95.185,5,6,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-59,95.063,4,8,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-51,94.975,4,6,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-14,94.696,2,13,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-113,94.535,8,5,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-82,94.429,5,8,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-76,94.295,5,5,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-17,94.221,2,14,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-110,93.935,8,4,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-53,93.896,4,6,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-108,93.86,8,4,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-2,93.722,2,10,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-73,93.665,5,4,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-83,93.478,5,8,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-47,93.453,4,5,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-89,93.203,6,5,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-18,93.194,2,14,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-38,93.164,3,10,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-85,93.156,6,4,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-43,92.899,3,12,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-93,92.87,6,6,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-8,92.667,2,12,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-71,92.336,5,4,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-5,92.245,2,11,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-112,92.221,8,5,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-31,91.844,3,8,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-101,91.376,7,4,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-60,91.348,4,8,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-30,91.198,3,7,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-20,91.06,2,15,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-121,90.851,9,4,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-106,90.647,8,3,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-42,90.542,3,12,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-6,89.852,2,11,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-48,89.787,4,5,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-21,89.774,2,15,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-32,89.768,3,8,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-77,89.734,5,6,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-80,89.606,5,7,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-99,89.595,7,4,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-103,89.554,7,5,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-105,89.542,8,3,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-40,89.296,3,11,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-63,88.941,4,9,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-72,88.886,5,4,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-24,88.784,2,16,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-98,88.537,7,3,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-104,88.426,7,5,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-39,88.203,3,11,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-9,88.02,2,12,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-36,87.779,3,9,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-132,87.729,10,4,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-114,87.723,8,5,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-65,87.633,4,9,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-68,87.62,4,10,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-0,87.479,2,10,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-34,87.457,3,9,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-56,87.119,4,7,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-100,86.953,7,4,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-118,86.635,9,3,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-119,86.308,9,4,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-130,86.137,10,4,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-135,86.113,11,2,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-12,86.019,2,13,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-131,85.748,10,4,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-97,85.718,7,3,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-137,85.654,11,3,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-136,85.125,11,2,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-138,84.971,11,3,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-134,84.892,11,2,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-120,84.559,9,4,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-44,84.369,3,12,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-29,84.305,3,7,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-109,84.244,8,4,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-37,84.05,3,10,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-124,83.835,10,2,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-128,83.721,10,3,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-143,83.58,13,3,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-117,82.009,9,3,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-140,81.922,13,2,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-127,81.459,10,3,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-123,81.036,10,2,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-139,79.113,13,2,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-45,78.788,3,13,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-141,78.699,13,3,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-102,78.568,7,5,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-148,77.756,16,2,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-122,76.91,10,2,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-142,76.766,13,3,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-151,76.732,17,2,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-144,76.095,15,2,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-146,75.715,16,2,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-166,74.997,28,1,2,01,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-147,74.005,16,2,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-152,73.999,17,2,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-150,72.943,17,2,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-145,72.381,15,2,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-165,71.565,28,1,2,01,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01,
-156,67.249,21,1,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-158,66.331,21,1,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-157,62.766,21,1,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-153,58.122,19,2,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-155,57.913,19,2,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-160,57.662,26,1,1,0,gpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-154,55.95,19,2,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-161,51.928,26,1,1,0,cpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-159,45.212,25,1,1,0,cpu,1,yes,0,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-164,42.144,28,1,1,0,gpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-163,40.486,28,1,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-167,38.096,31,1,1,0,gpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-168,35.711,33,1,1,0,gpu,1,yes,1,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0,
-170,34.053,33,1,1,0,cpu,1,yes,1,1,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
-169,31.336,33,1,1,0,cpu,1,yes,0,0,barbun137,gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0,
+timestamp,hostname,task_id,ntmpi,ntomp,gpu_count,dlb,notunepme,pin,runtime_sec,performance_ns_day,status,command
+2025-12-09 23:16:29,barbun137,91,6,5,2,yes,1,0,66,147.851,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 00:04:02,barbun137,116,8,5,2,yes,1,1,68,145.010,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 23:25:38,barbun137,96,6,6,2,yes,1,1,70,139.999,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 00:02:35,barbun137,115,8,5,2,yes,0,0,72,135.345,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 23:08:59,barbun137,87,6,4,2,yes,0,1,72,135.277,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:24:10,barbun137,95,6,6,2,yes,0,0,73,133.254,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 23:55:02,barbun137,111,8,4,2,yes,1,0,75,128.846,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:47:27,barbun137,107,8,3,2,yes,0,1,76,127.792,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 22:29:38,barbun137,67,4,9,2,yes,1,1,79,122.459,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:06:52,barbun137,55,4,6,2,yes,1,1,79,122.449,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 00:37:05,barbun137,133,10,4,2,yes,1,0,80,119.977,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 01:32:07,barbun137,149,16,2,2,yes,1,0,81,119.577,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 21:13:17,barbun137,28,2,16,2,yes,1,1,82,116.031,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 20:50:32,barbun137,16,2,13,2,yes,1,1,84,113.796,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:35:18,barbun137,70,4,10,2,yes,0,1,85,112.736,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 00:24:02,barbun137,126,10,2,2,yes,1,1,86,112.117,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 20:27:17,barbun137,4,2,10,2,yes,1,1,86,111.958,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 20:56:08,barbun137,19,2,14,2,yes,0,1,86,111.287,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 00:29:36,barbun137,129,10,3,2,yes,0,1,86,110.768,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 22:28:15,barbun137,66,4,9,2,yes,0,0,87,110.357,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 20:32:52,barbun137,7,2,11,2,yes,0,1,87,109.067,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 00:22:33,barbun137,125,10,2,2,yes,0,0,88,108.248,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 22:20:41,barbun137,62,4,8,2,yes,1,0,88,107.187,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 21:03:47,barbun137,23,2,15,2,yes,1,0,89,107.077,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 22:05:32,barbun137,54,4,6,2,yes,0,0,90,106.032,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:11:24,barbun137,27,2,16,2,yes,0,0,90,104.825,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 22:12:38,barbun137,58,4,7,2,yes,0,1,91,104.629,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 20:40:33,barbun137,11,2,12,2,yes,1,0,92,102.816,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 20:48:39,barbun137,15,2,13,2,yes,0,0,93,102.301,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:57:29,barbun137,50,4,5,2,yes,1,0,93,102.081,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 22:33:25,barbun137,69,4,10,1,yes,1,0,93,101.651,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 02:07:40,barbun137,162,26,1,2,yes,0,1,94,101.492,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 21:01:50,barbun137,22,2,15,1,yes,1,1,94,100.321,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 21:07:25,barbun137,25,2,16,1,yes,1,1,95,99.567,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 21:39:18,barbun137,41,3,11,1,yes,1,1,95,98.976,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 21:23:06,barbun137,33,3,8,1,yes,1,1,95,98.960,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 20:25:25,barbun137,3,2,10,2,yes,0,0,95,98.860,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 20:38:34,barbun137,10,2,12,1,yes,1,1,95,98.768,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 21:09:27,barbun137,26,2,16,1,yes,0,1,95,98.659,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:10:54,barbun137,88,6,5,1,yes,1,0,96,98.539,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 22:10:41,barbun137,57,4,7,1,yes,1,0,96,98.521,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 20:44:40,barbun137,13,2,13,1,yes,1,1,96,98.171,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:57:15,barbun137,81,5,7,1,yes,1,1,96,98.068,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:18:48,barbun137,61,4,8,1,yes,1,1,97,96.835,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 21:55:32,barbun137,49,4,5,1,yes,1,1,97,96.766,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:24:23,barbun137,64,4,9,1,yes,1,1,98,96.444,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 20:21:24,barbun137,1,2,10,1,yes,1,1,97,96.341,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:01:37,barbun137,52,4,6,1,yes,1,1,98,96.271,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 21:49:28,barbun137,46,3,13,1,yes,1,0,98,96.121,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 22:43:07,barbun137,74,5,5,1,yes,0,0,98,96.044,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 23:15:00,barbun137,90,6,5,1,yes,1,1,99,96.033,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:45:08,barbun137,75,5,5,1,yes,1,1,98,95.978,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:53:14,barbun137,79,5,7,1,yes,1,0,98,95.934,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:18:32,barbun137,92,6,6,1,yes,0,0,98,95.909,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:27:12,barbun137,35,3,9,1,yes,1,1,98,95.749,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 23:07:24,barbun137,86,6,4,1,yes,1,0,98,95.627,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:03:22,barbun137,84,5,8,1,yes,0,1,99,95.411,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:22:35,barbun137,94,6,6,1,yes,0,1,99,95.280,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 22:51:13,barbun137,78,5,6,1,yes,1,0,99,95.185,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 22:14:47,barbun137,59,4,8,1,yes,1,0,99,95.063,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 21:59:37,barbun137,51,4,6,1,yes,0,0,99,94.975,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 20:46:44,barbun137,14,2,13,1,yes,0,1,99,94.696,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:59:00,barbun137,113,8,5,1,yes,1,1,100,94.535,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:59:19,barbun137,82,5,8,1,yes,0,0,99,94.429,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 22:47:11,barbun137,76,5,5,1,yes,0,1,100,94.295,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 20:52:19,barbun137,17,2,14,1,yes,0,1,100,94.221,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:53:26,barbun137,110,8,4,1,yes,1,1,99,93.935,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:03:41,barbun137,53,4,6,1,yes,0,1,100,93.896,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 6 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:49:22,barbun137,108,8,4,1,yes,1,0,100,93.860,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 20:23:28,barbun137,2,2,10,1,yes,0,1,100,93.722,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 22:41:07,barbun137,73,5,4,1,yes,1,1,100,93.665,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 23:01:21,barbun137,83,5,8,1,yes,1,1,100,93.478,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 21:51:32,barbun137,47,4,5,1,yes,1,0,100,93.453,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:13:01,barbun137,89,6,5,1,yes,0,0,101,93.203,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 20:54:21,barbun137,18,2,14,1,yes,1,0,101,93.194,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 14 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 21:33:19,barbun137,38,3,10,1,yes,1,0,101,93.164,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:05:25,barbun137,85,6,4,1,yes,0,1,100,93.156,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 21:43:27,barbun137,43,3,12,1,yes,1,1,101,92.899,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 23:20:36,barbun137,93,6,6,1,yes,1,1,101,92.870,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 6 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 20:34:37,barbun137,8,2,12,1,yes,1,0,101,92.667,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 22:37:06,barbun137,71,5,4,1,yes,1,0,102,92.336,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 20:29:04,barbun137,5,2,11,1,yes,0,1,102,92.245,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:57:00,barbun137,112,8,5,1,yes,0,0,102,92.221,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:19:10,barbun137,31,3,8,1,yes,1,0,101,91.844,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:35:46,barbun137,101,7,4,1,yes,1,1,102,91.376,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 22:16:52,barbun137,60,4,8,1,yes,0,0,102,91.348,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:17:10,barbun137,30,3,7,1,yes,1,0,103,91.198,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 20:57:56,barbun137,20,2,15,1,yes,1,0,103,91.060,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 00:14:13,barbun137,121,9,4,1,yes,1,1,103,90.851,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 23:45:54,barbun137,106,8,3,1,yes,1,0,104,90.647,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 21:41:28,barbun137,42,3,12,1,yes,0,0,103,90.542,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 20:31:08,barbun137,6,2,11,1,yes,1,0,104,89.852,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 21:53:38,barbun137,48,4,5,1,yes,0,0,104,89.787,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 20:59:59,barbun137,21,2,15,1,yes,0,0,104,89.774,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 15 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:21:14,barbun137,32,3,8,1,yes,0,0,104,89.768,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 8 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 22:49:17,barbun137,77,5,6,1,yes,0,1,104,89.734,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 6 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 22:55:22,barbun137,80,5,7,1,yes,0,0,105,89.606,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 7 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 23:31:46,barbun137,99,7,4,1,yes,1,0,104,89.595,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:39:51,barbun137,103,7,5,1,yes,1,1,105,89.554,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 23:43:54,barbun137,105,8,3,1,yes,0,1,105,89.542,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 21:37:26,barbun137,40,3,11,1,yes,0,0,105,89.296,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 22:22:29,barbun137,63,4,9,1,yes,0,0,105,88.941,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 22:39:11,barbun137,72,5,4,1,yes,0,0,105,88.886,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 5 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:05:34,barbun137,24,2,16,1,yes,0,0,105,88.784,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 16 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 23:29:46,barbun137,98,7,3,1,yes,1,0,105,88.537,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:41:54,barbun137,104,7,5,1,yes,0,1,106,88.426,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 21:35:26,barbun137,39,3,11,1,yes,1,0,106,88.203,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 11 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 20:36:43,barbun137,9,2,12,1,yes,0,0,105,88.020,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:29:22,barbun137,36,3,9,1,yes,0,1,107,87.779,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 00:35:30,barbun137,132,10,4,1,yes,1,1,106,87.729,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 00:01:08,barbun137,114,8,5,1,yes,0,1,107,87.723,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 5 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 22:26:34,barbun137,65,4,9,1,yes,0,1,107,87.633,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 9 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 22:31:38,barbun137,68,4,10,1,yes,0,1,107,87.620,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 20:19:32,barbun137,0,2,10,1,yes,0,0,107,87.479,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:25:20,barbun137,34,3,9,1,yes,0,0,107,87.457,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 9 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 22:08:51,barbun137,56,4,7,1,yes,0,1,107,87.119,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 4 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:33:50,barbun137,100,7,4,1,yes,0,0,107,86.953,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 00:08:14,barbun137,118,9,3,1,yes,1,0,108,86.635,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 00:10:15,barbun137,119,9,4,1,yes,1,0,108,86.308,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 00:31:29,barbun137,130,10,4,1,yes,1,0,108,86.137,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 01:01:47,barbun137,135,11,2,1,yes,1,1,109,86.113,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-09 20:42:51,barbun137,12,2,13,1,yes,0,0,109,86.019,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 2 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 00:33:31,barbun137,131,10,4,1,yes,0,0,109,85.748,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 23:27:48,barbun137,97,7,3,1,yes,0,1,109,85.718,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 01:05:50,barbun137,137,11,3,1,yes,0,1,109,85.654,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 01:03:49,barbun137,136,11,2,1,yes,0,1,110,85.125,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 01:07:52,barbun137,138,11,3,1,yes,1,0,110,84.971,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 00:39:06,barbun137,134,11,2,1,yes,0,0,110,84.892,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 11 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 00:12:19,barbun137,120,9,4,1,yes,0,0,111,84.559,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:45:38,barbun137,44,3,12,1,yes,0,1,110,84.369,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 12 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 21:15:16,barbun137,29,3,7,1,yes,0,1,110,84.305,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 7 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 23:51:34,barbun137,109,8,4,1,yes,0,0,110,84.244,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 8 -ntomp 4 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-09 21:31:28,barbun137,37,3,10,1,yes,0,1,111,84.050,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 10 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 00:20:55,barbun137,124,10,2,1,yes,0,1,111,83.835,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 00:28:00,barbun137,128,10,3,1,yes,1,0,111,83.721,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 01:18:29,barbun137,143,13,3,1,yes,1,1,111,83.580,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 00:06:19,barbun137,117,9,3,1,yes,0,1,114,82.009,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 9 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 01:11:58,barbun137,140,13,2,1,yes,1,0,114,81.922,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 00:26:02,barbun137,127,10,3,1,yes,0,1,115,81.459,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 00:18:57,barbun137,123,10,2,1,yes,1,1,114,81.036,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 01:10:00,barbun137,139,13,2,1,yes,0,1,117,79.113,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-09 21:47:47,barbun137,45,3,13,1,yes,0,1,118,78.788,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 3 -ntomp 13 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 01:14:03,barbun137,141,13,3,1,yes,1,0,118,78.699,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-09 23:38:04,barbun137,102,7,5,1,yes,0,0,118,78.568,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 7 -ntomp 5 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 01:30:44,barbun137,148,16,2,1,yes,1,1,119,77.756,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 00:16:32,barbun137,122,10,2,1,yes,0,0,121,76.910,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 10 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 01:16:07,barbun137,142,13,3,1,yes,0,0,121,76.766,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 13 -ntomp 3 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 01:36:49,barbun137,151,17,2,1,yes,1,1,121,76.732,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 01:20:41,barbun137,144,15,2,1,yes,0,1,122,76.095,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 01:25:44,barbun137,146,16,2,1,yes,1,0,122,75.715,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 02:20:48,barbun137,166,28,1,2,yes,1,1,124,74.997,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 01:28:18,barbun137,147,16,2,1,yes,0,0,125,74.005,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 16 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 01:39:25,barbun137,152,17,2,1,yes,0,1,125,73.999,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 01:34:24,barbun137,150,17,2,1,yes,0,0,127,72.943,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 17 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 01:23:18,barbun137,145,15,2,1,yes,1,0,128,72.381,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 15 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 02:18:22,barbun137,165,28,1,2,yes,0,0,130,71.565,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 01 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 01:51:13,barbun137,156,21,1,1,yes,1,0,136,67.249,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 01:56:18,barbun137,158,21,1,1,yes,1,1,138,66.331,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 01:53:54,barbun137,157,21,1,1,yes,0,0,146,62.766,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 21 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 01:42:28,barbun137,153,19,2,1,yes,1,0,156,58.122,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 01:48:32,barbun137,155,19,2,1,yes,1,1,157,57.913,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 02:02:41,barbun137,160,26,1,1,yes,0,1,158,57.662,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 01:45:36,barbun137,154,19,2,1,yes,0,0,163,55.950,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 19 -ntomp 2 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 02:05:59,barbun137,161,26,1,1,yes,1,0,174,51.928,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 26 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 01:59:50,barbun137,159,25,1,1,yes,0,1,199,45.212,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 25 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -pin on"
+2025-12-10 02:15:43,barbun137,164,28,1,1,yes,1,1,213,42.144,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 02:11:49,barbun137,163,28,1,1,yes,0,0,221,40.486,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 28 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 02:25:11,barbun137,167,31,1,1,yes,0,0,236,38.096,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 31 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
+2025-12-10 02:29:28,barbun137,168,33,1,1,yes,1,0,250,35.711,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded gpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme"
+2025-12-10 02:39:16,barbun137,170,33,1,1,yes,1,1,262,34.053,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes -notunepme -pin on"
+2025-12-10 02:34:35,barbun137,169,33,1,1,yes,0,0,285,31.336,Success,"gmx mdrun -s md_0_250ns_nohmr.tpr -ntmpi 33 -ntomp 1 -nb gpu -pme gpu -bonded cpu -npme 1 -gpu_id 0 -nsteps 50000 -noconfout -dlb yes"
